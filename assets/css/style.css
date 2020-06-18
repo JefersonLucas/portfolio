@@ -128,7 +128,8 @@ body {
 	bottom: 40px;
 	border-radius: 50%;
 	color: #3ab3b5;
-	font-size: 30px;
+	font-size: 200%;
+	justify-content: center;
 	position: fixed;
 	height: 50px;
 	right: 40px;

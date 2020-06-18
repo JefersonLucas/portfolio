@@ -1,7 +1,7 @@
 <p align="center">
-	<img src="assets/img/logo.png" width="150">
-	<h1 align="center">My portfolio</h1>
-	<p align="center">My simple portfolio</p>
+	<img src="../../assets/img/logo.png" width="150">
+	<h1 align="center">Meu portfólio</h1>
+	<p align="center">Meu simples portfólio</p>
 	<p align="center">
     	<img src="https://img.shields.io/badge/Jeferson%20Lucas-My%20portfolio-blue" alt="Portfolio">
     	<img src="https://img.shields.io/badge/License-MIT-green" alt="License">
@@ -9,33 +9,33 @@
 </p>
 
 <p align="center">
-	<img src="docs/capture.png" width="450">
+	<img src="../../docs/capture.png" width="450">
 </p>
 
-## Translations
+## Traduções
 
 * [Original](https://github.com/JefersonLucas/my-portfolio/blob/master/README.md)
-* [Português - BR](https://github.com/JefersonLucas/my-portfolio/blob/master/translate/pt-br/README.md)
+* [English](https://github.com/JefersonLucas/my-portfolio/blob/master/translate/en/README.md)
 
-## Built with
+## Construído com
 
 * [Bootstrap](https://getbootstrap.com/) - Framework front end.
-* [Font Awesome](https://fontawesome.com/) - Icon pack Framework.
+* [Font Awesome](https://fontawesome.com/) - Framework de pacote de ícones.
 
-## Authors
+## Autores
 
-* [@JefersonLucas](https://github.com/JefersonLucas) - _Creator_.
+* [@JefersonLucas](https://github.com/JefersonLucas) - _Idealizador_.
 
-See also the complete list of [contributors](https://github.com/JefersonLucas/my-portfolio/contributors) who participated in this project.
+Veja também a lista completa de [contribuidores](https://github.com/JefersonLucas/my-portfolio/contributors) que participaram deste projeto.
 
-## License
+## Licença
 
-This project is licensed under the license MIT - see the file [LICENSE.md](https://github.com/JefersonLucas/my-portfolio/blob/master/LICENSE) for details.
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/my-portfolio/blob/master/LICENSE) para obter detalhes.
 
-## Thanks
+## Agradecimentos
 
-My sincere thanks:
+Meus sinceros agradecimentos:
 
-* God.
-* Project contributors.
-* Everyone who visits the project and leaves a star as recognition.
+* A Deus.
+* Contribuintes do projeto.
+* Todos que visitam o projeto e deixa uma estrela como reconhecimento.
