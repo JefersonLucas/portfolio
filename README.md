@@ -10,28 +10,32 @@
 
 <p align="center">
 	<img src="docs/capture.png" width="450">
-	<img src="docs/capture-mobile.png" width="450">
 </p>
 
-## Construído com
+## Translations
+
+* [Original](https://github.com/JefersonLucas/my-portfolio)
+* [Português - BR](https://github.com/JefersonLucas/my-portfolio/tree/master/translations/pt-br)
+
+## Built with
 
 * [Bootstrap](https://getbootstrap.com/) - Framework front end.
-* [Font Awesome](https://fontawesome.com/) - Framework de pacote de ícones.
+* [Font Awesome](https://fontawesome.com/) - Icon pack Framework.
 
-## Autores
+## Authors
 
-* [@JefersonLucas](https://github.com/JefersonLucas) - _Idealizador_.
+* [@JefersonLucas](https://github.com/JefersonLucas) - _Creator_.
 
-Veja também a lista completa de [contribuidores](https://github.com/JefersonLucas/my-portfolio/contributors) que participaram deste projeto.
+See also the complete list of [contributors](https://github.com/JefersonLucas/my-portfolio/contributors) who participated in this project.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/my-portfolio/blob/master/LICENSE) para obter detalhes.
+This project is licensed under the license MIT - see the file [LICENSE.md](https://github.com/JefersonLucas/my-portfolio/blob/master/LICENSE) for details.
 
-## Agradecimentos
+## Thanks
 
-Meus sinceros agradecimentos:
+My sincere thanks:
 
-* A Deus.
-* Contribuintes do projeto.
-* Todos que visitam o projeto e deixa uma estrela como reconhecimento.
+* God.
+* Project contributors.
+* Everyone who visits the project and leaves a star as recognition.
