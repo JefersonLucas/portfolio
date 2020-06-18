@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="../../assets/img/logo.png" width="150">
+	<img src="assets/img/logo.png" width="150">
 	<h1 align="center">Meu portfólio</h1>
 	<p align="center">Meu simples portfólio</p>
 	<p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-	<img src="../../docs/capture.png" width="450">
+	<img src="docs/capture.png" width="450">
 </p>
 
 ## Traduções
