@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-	<img src="docs/capture.png" width="450">
+	<img src="../../docs/capture.png" width="450">
 </p>
 
 ## Traduções
