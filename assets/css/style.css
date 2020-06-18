@@ -121,19 +121,38 @@ body {
 	}
 }
 /*
- * Whatsapp	
+ * Whatsapp
  */
 .whatsapp-link {
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	bottom: 40px;
-	right: 40px;
-
 	background: #444;
-	color: #3ab3b5;
+	bottom: 40px;
 	border-radius: 50%;
-	text-align: center;
+	color: #3ab3b5;
 	font-size: 30px;
+	position: fixed;
+	height: 50px;
+	right: 40px;
+	text-align: center;
 	z-index: 10;
+	width: 50px;
+}
+.whatsapp-link:hover {
+	animation: whatsapp-animation .5s ease infinite;
+}
+@keyframes whatsapp-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
