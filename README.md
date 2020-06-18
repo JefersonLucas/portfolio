@@ -14,8 +14,8 @@
 
 ## Translations
 
-* [Original](https://github.com/JefersonLucas/my-portfolio)
-* [Português - BR](https://github.com/JefersonLucas/my-portfolio/tree/master/translations/pt-br)
+* [Original](https://github.com/JefersonLucas/my-portfolio/blob/master/README.md)
+* [Português - BR](https://github.com/JefersonLucas/my-portfolio/blob/master/translate/pt-br/README.md)
 
 ## Built with
 

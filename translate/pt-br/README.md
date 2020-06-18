@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="assets/img/logo.png" width="150">
+	<img src="../../assets/img/logo.png" width="150">
 	<h1 align="center">Meu portfólio</h1>
 	<p align="center">Meu simples portfólio</p>
 	<p align="center">
@@ -14,8 +14,8 @@
 
 ## Traduções
 
-* [Original](https://github.com/JefersonLucas/my-portfolio)
-* [Português - BR](https://github.com/JefersonLucas/my-portfolio/tree/master/translations/pt-br)
+* [Original](https://github.com/JefersonLucas/my-portfolio/blob/master/README.md)
+* [Português - BR](https://github.com/JefersonLucas/my-portfolio/blob/master/translate/pt-br/README.md)
 
 ## Construído com
 
