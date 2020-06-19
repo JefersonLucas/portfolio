@@ -2,6 +2,23 @@
  * Globals
  */
 
+/* Colors */
+
+/* Primary: #3ab3b5
+ * Background: #222;
+ * Color: #fff;
+ */
+
+/* Custom default button */
+/*.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	color: #3ab3b5;
+	text-shadow: none;
+	background-color: #222;
+	border: .05rem solid #3ab3b5;
+}*/
+
 /* Links */
 a,
 a:focus,
@@ -9,17 +26,6 @@ a:hover {
 	color: #3ab3b5;
 	text-decoration: none;
 }
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-	color: #3ab3b5;
-	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #222;
-	border: .05rem solid #3ab3b5;
-}
-
 
 /*
  * Base structure
@@ -43,10 +49,10 @@ body {
 	max-width: 42em;
 }
 
-
 /*
  * Header
  */
+
 .masthead {
 	margin-bottom: 2rem;
 }
@@ -86,10 +92,10 @@ body {
 	}
 }
 
-
 /*
  * Cover
  */
+
 .cover {
 	padding: 0 1.5rem;
 }
@@ -101,12 +107,15 @@ body {
 /*
  * Footer
  */
+
 .mastfoot {
 	color: rgba(255, 255, 255, .5);
 }
+
 /*
  * Style	
  */
+
 .bd-placeholder-img {
 	font-size: 1.125rem;
 	text-anchor: middle;
@@ -120,15 +129,17 @@ body {
 		font-size: 3.5rem;
 	}
 }
+
 /*
  * Whatsapp
  */
+
 .whatsapp-link {
-	background: #444;
+	background: linear-gradient(30deg,#444 ,#222);
 	bottom: 40px;
 	border-radius: 50%;
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, .7);
-	color: #3ab3b5;
+	color: #222;
 	font-size: 200%;
 	justify-content: center;
 	position: fixed;
