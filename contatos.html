@@ -45,24 +45,24 @@
 			<hr>
 			<div class="inner">
 				<p class="user-select-none">&copy; 2020 - Jeferson Lucas
-					<a class="ml-3" href="https://jefersonlucas.github.io/my-portfolio/translate/en/">
+					<a class="ml-3" data-toggle="tooltip" data-placement="top" title="English" href="https://jefersonlucas.github.io/my-portfolio/translate/en/">
 						<img src="assets/img/america-flag.png" width="20" height="20" alt="America flag">
 					</a>
 				</p>
 				<p>
-					<a class="mx-1" href="https://www.facebook.com/profile.php?id=100004317732004" target="_blank">
+					<a class="mx-1" href="https://www.facebook.com/profile.php?id=100004317732004" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank">
 						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a class="mx-1" href="https://twitter.com/JefersonLuckas" target="_blank">
+					<a class="mx-1" href="https://twitter.com/JefersonLuckas" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank">
 						<i class="fab fa-twitter"></i>
 					</a>
-					<a class="mx-1" href="https://www.instagram.com/jeferson.luckas/" target="_blank">
+					<a class="mx-1" href="https://www.instagram.com/jeferson.luckas/" data-toggle="tooltip" data-placement="top" title="Instagram" target="_blank">
 						<i class="fab fa-instagram"></i>
 					</a>
-					<a class="mx-1" href="https://www.linkedin.com/in/jeferson-lucas/" target="_blank">
+					<a class="mx-1" href="https://www.linkedin.com/in/jeferson-lucas/" data-toggle="tooltip" data-placement="top" title="LinkedIn" target="_blank">
 						<i class="fab fa-linkedin-in"></i>
 					</a>
-					<a class="mx-1" href="https://github.com/JefersonLucas" target="_blank">
+					<a class="mx-1" href="https://github.com/JefersonLucas" data-toggle="tooltip" data-placement="top" title="GitHub" target="_blank">
 						<i class="fab fa-github"></i>
 					</a>
 					<a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=+556198453785&text=Olá,+tudo+bem?&source=&data=&app_absent=" target="_blank">
@@ -72,5 +72,18 @@
 			</div>
 		</footer>
 	</div>
+
+    <script src="bootstrap/jquery/jquery.js"></script>
+    <script src="bootstrap/popper.js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <script>
+    	$('#modal').modal('show');
+
+		$(function () {
+  			$('[data-toggle="tooltip"]').tooltip();
+		})
+    </script>
+
 </body>
 </html>
