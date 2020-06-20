@@ -1,5 +1,3 @@
-// Modal
-$("#modal").modal("show");
 // Tooltip
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip();
