@@ -1,24 +1,13 @@
-/*
- * Globals
+
+/*!
+ * Jeferson Luckas - Portfolio
+ *
+ * Copyright (c) 2020 Jeferson Luckas
+ * Released under the MIT license
+ * https://github.com/JefersonLucas/my-portfolio
+ *
  */
-
-/* Colors */
-
-/* Primary: #3ab3b5
- * Background: #222;
- * Color: #fff;
- */
-
-/* Custom default button */
-/*.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-	color: #3ab3b5;
-	text-shadow: none;
-	background-color: #222;
-	border: .05rem solid #3ab3b5;
-}*/
-
+ 
 /* Links */
 a,
 a:focus,

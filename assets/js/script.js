@@ -1,3 +1,12 @@
+/*!
+ * Jeferson Luckas - Portfolio
+ *
+ * Copyright (c) 2020 Jeferson Luckas
+ * Released under the MIT license
+ * https://github.com/JefersonLucas/my-portfolio
+ *
+ */
+
 // Tooltip
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip();

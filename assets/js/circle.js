@@ -1,9 +1,9 @@
 /*!
- * Jeferson Luckas - Disinfect the virus
+ * Jeferson Luckas - Portfolio
  *
  * Copyright (c) 2020 Jeferson Luckas
  * Released under the MIT license
- * https://github.com/JefersonLucas/disinfect-the-virus/blob/master/LICENSE
+ * https://github.com/JefersonLucas/my-portfolio
  *
  */
 
