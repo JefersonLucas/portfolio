@@ -4,7 +4,7 @@
  *
  * Copyright (c) 2021 Jeferson Lucas
  * Released under the MIT license
- * https://github.com/JefersonLucas/portfolio
+ * https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
  * 
  */ -->
 
@@ -14,9 +14,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Portfólio | Jeferson Lucas - Desenvolvedor Front-end</title>
 	<meta name="Autor" content="Jeferson Lucas">
 	<meta name="theme-color" content="#0d1117">
+	<title>Portfólio | Jeferson Lucas - Desenvolvedor Front-end</title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -49,8 +49,8 @@
 	<!-- Navbar -->
 	<nav id="navb" class="navbar navbar-dark navbar-expand-lg fixed-top">
 		<div class="container d-flex justify-content-center">
-			<span class="navbar-text text-white">
-				Portfólio em desenvolvimento <i class="fas fa-exclamation-triangle fa-lg text-warning"></i>
+			<span class="navbar-text text-white text-monospace h4" id="typewriter">
+				Esse portfólio está em desenvolvimento 👷🏼🏗️💼
 			</span>
 		</div>
 	</nav>
@@ -65,8 +65,8 @@
 		<div class="container text-center card">
 			<img alt="Avatar image" class="rounded-circle img-thumbnail" id="avatar" />
 			<h1 class="font-weight-bold" id="name"></h1>
-			<h4 class="font-weight-bold" id="typewriter"></h4>
-			<hr class="intro-divider">
+			<h4 class="font-weight-bold" id="bio"></h4>
+			<hr class="divider">
 			<ul class="social-networks">
 				<li>
 					<a href="https://api.whatsapp.com/send?phone=+556198453785&text=Olá,+tudo+bem?&source=&data=&app_absent="
@@ -97,7 +97,7 @@
 
 	</header>
 
-	<!-- Vanilla | Glassmorphism -->
+	<!-- Vanilla - Glassmorphism -->
 	<script>
 		VanillaTilt.init(document.querySelectorAll(".card"), {
 			max: 25,

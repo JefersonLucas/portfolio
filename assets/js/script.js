@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2021 Jeferson Lucas
  * Released under the MIT license
- * https://github.com/JefersonLucas/linkdev
+ * https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
  *
  */
 
@@ -22,7 +22,7 @@ const data = getAsyncAPI(api);
 data.then((response) => {
   document.getElementById('avatar').src = response.avatar_url;
   document.getElementById('name').innerHTML = response.name;
-  document.getElementById('typewriter').innerHTML = response.bio;
+  document.getElementById('bio').innerHTML = response.bio;
 
   // Typewriter
   function typewriter(element) {

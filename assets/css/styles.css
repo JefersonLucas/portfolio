@@ -3,14 +3,26 @@
  *
  * Copyright (c) 2021 Jeferson Lucas
  * Released under the MIT license
- * https://github.com/JefersonLucas/portfolio
+ * https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
  *
  */
 
-/* Globals */
+/*
+ * Styles
+ *
+ * Background: #0d1117, #161b22, #21262d;
+ * Text color: #fff;
+ * Font Family: 'Poppins', sans-serif;
+ * Transitions: 200ms;
+ *
+ */
+
+/* 
+ * Globals 
+ */
 
 body {
-	background:  #06090f;
+	background:  #0d1117;
 	font-family: 'Poppins', sans-serif;
 	height: 100%;
 	margin: 0;
@@ -34,10 +46,12 @@ h1:hover {
   animation: neon 5s infinite alternate;
 }
 
-/* Load Spiner */
+/* 
+ * Load Spiner
+ */
 
 .spinner-wrapper {
-	background: #161b22;
+	background: #0d1117;
 	bottom: 0;
 	position: fixed;
 	left: 0;
@@ -73,7 +87,9 @@ h1:hover {
 	animation-delay: -0.16s;
 }
 
-/* Header */
+/*
+ * Header
+ */
 
 .header {
 	font-weight: 900;
@@ -83,11 +99,11 @@ h1:hover {
 
 .intro-header {
 	overflow: hidden;
-	background: linear-gradient(to bottom, #161b22, #06090f);
+	background: linear-gradient(to bottom, #161b22, #0d1117);
 	height: 100vh;
 }
 
-.intro-divider {
+.divider {
 	width: 300px;
 	border-top: 1px solid #ffffff80;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -124,7 +140,26 @@ h1:hover {
 	font-size: 1.8em;
 }
 
-/* Card */
+/* 
+ * Typewriter
+ */
+
+#typewriter {
+	text-align: center;
+}
+
+#typewriter::after {
+	animation: blink 1s infinite;
+	bottom: 2px;
+	content: '|';
+	display: inline-block;
+	position: relative;
+	transition: 200ms;
+}
+
+/* 
+ * Card 
+ */
 
 .card {
 	align-items: center;
@@ -150,19 +185,6 @@ h1:hover {
 	filter: none;
 	z-index: 100;
 }
-#typewriter {
-	text-align: center;
-}
-
-#typewriter::after {
-	animation: blink 1s infinite;
-	bottom: 2px;
-	content: '|';
-	display: inline-block;
-	margin-left: 2px;
-	position: relative;
-	transition: 200ms;
-}
 #name {
 	padding: 0 25px;
 	position: relative;
@@ -174,14 +196,19 @@ h1:hover {
 	border-radius: 50%;
 	filter: grayscale(1);
 }
-#typewriter:hover, #name:hover, #avatar:hover {
+#bio {
+	transition: 200ms;
+}
+#bio:hover, #name:hover, #avatar:hover {
 	color: #fff;
 	filter: none;
 	transform: scale(1.5);
 	z-index: 100;
 }
 
-/* Social networks */
+/* 
+ * Social networks
+ */
 
 .social-networks {
 	align-items: center;
@@ -225,7 +252,9 @@ h1:hover {
 	color: #0073b1;
 }
 
-/* Techs  */
+/* 
+ * Techs
+ */
 
 .fa-js-square,
 .fa-npm,
@@ -278,7 +307,9 @@ h1:hover {
 	color: #c60000;
 }
 
-/* Tech fly */
+/*
+ * Tech fly
+ */
 
 .tech-fly li {
 	animation: fly 2s infinite alternate;
@@ -290,11 +321,15 @@ h1:hover {
 	width: 2rem;
 }
 
-/* Imports */
+/* 
+ * Imports
+ */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Animations */
+/* 
+ * Animations
+ */
 
 @keyframes blink {
 	0%, 69% {
@@ -354,7 +389,9 @@ h1:hover {
   }
 }
 
-/* Media Query */
+/*
+ * Media Query
+ */
 
 @media (max-width: 480px) {
 	.intro-header {

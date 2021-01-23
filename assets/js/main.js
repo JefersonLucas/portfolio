@@ -1,3 +1,12 @@
+/*!
+ * Jeferson Luckas - Portfolio
+ *
+ * Copyright (c) 2021 Jeferson Lucas
+ * Released under the MIT license
+ * https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
+ *
+ */
+
 $(window).on('load', function () {
 
 	let vh = window.innerHeight * 0.01

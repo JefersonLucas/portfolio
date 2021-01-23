@@ -1,7 +1,6 @@
 <p align="center">
-	<img src="./assets/img/cover.gif">
-	<h1 align="center">Portfólio</h1>
-	<p align="center"> Seja bem vindo ao meu portfólio 💼👨🏻‍💻
+	<img alt="cover" src="./assets/img/cover.gif" title="Portfólio logo">
+	<h1 align="center">Portfólio 👨🏻‍💻💼</h1>
 </p>
 
 ![GitHub repo name](https://img.shields.io/badge/Jeferson%20Lucas-Portfólio-success)
@@ -18,18 +17,30 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/JefersonLucas/portfolio?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/JefersonLucas/portfolio?style=social)
 
-## Construído com
+## Sobre ℹ️ 
 
+Portfólio desenvolvido com o intuito de mostrar meus projetos ao decorrer da minha carreira.
+
+## Construído com 🏗️
+
+Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias:
 * [AOS](https://michalsnik.github.io/aos/) - Biblioteca CSS de rolagem.
 * [Bootstrap](https://getbootstrap.com/) - Framework front-end.
 * [Font Awesome](https://fontawesome.com/) - Pacote de ícones.
-* [Vanilla tilt.js](https://github.com/micku7zu/vanilla-tilt.js) - Biblioteca JavaScript de inclinação 3D.
 * [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/) - Plugin jQuery.
+* [Vanilla tilt.js](https://github.com/micku7zu/vanilla-tilt.js) - Biblioteca JavaScript de inclinação 3D.
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fonte.
 
-## Autores
+## Licença 🧾
 
-* [@JefersonLucas](https://github.com/JefersonLucas) - _Idealizador_.
+Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md) para obter detalhes.
 
-## Licença
+## Agradecimentos 🤝🏻
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/portfolio/blob/master/LICENSE) para obter detalhes.
+Pessoas que de alguma forma, me inspiraram desenvolver esse projeto:
+* [@iuricode](https://github.com/iuricode/portfolio) - Portfólio 01.
+* [@ramonrpa](https://github.com/ramonrpa/ramonrpa.github.io) - Portfólio 02.
+* [@Inovatik](https://github.com/Inovatik) - Landing page.
+* [@gabrieldejesus](https://github.com/gabrieldejesus) - Design sobre o Glassmorphism.
+
+Agradeço de coração! Mesmo que indiretamente vocês fizeram parte desse projeto! ❤️
