@@ -1,3 +1,13 @@
+<!-- Cover -->
+<p align="center">
+	<img 
+		alt="cover"
+		loading="lazy"
+		src="./assets/img/cover.gif"
+		style="border-radius: 15px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,.5);"
+		title="Portfólio cover" 
+	/>
+</p>
 <!-- Header -->
 <h1 align="center">Portfólio 👨🏻‍💻💼</h1>
 <!-- Repo info -->
@@ -21,25 +31,15 @@
 	<img alt="CSS3" src="https://img.shields.io/badge/-CSS-fff?style=flat&logo=CSS3&logoColor=1572B6" title="CSS3" />
 	<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-fff?fff=flat&logoColor=FEAE32&logo=javascript" title="JavaScript" />
 	<img alt="Sass" src="https://img.shields.io/badge/-Sass-ffffff?style=flat&logo=sass" title="Sass" />
-	<img alt="jQuery" src="https://img.shields.io/badge/-jQuery-4878a0?style=flat&logo=jquery" title="jQuery" />
+	<img alt="jQuery" src="https://img.shields.io/badge/-jQuery-fff?style=flat&logo=jquery&logoColor=4878a0" title="jQuery" />
 	<img alt="JSON" src="https://img.shields.io/badge/-JSON-fff?style=flat&logo=json&logoColor=1a1a1a" title="JSON" />
 	<img alt="Git" src="https://img.shields.io/badge/-Git-fff?fff=flat&logo=git" title="Git" />
 	<img alt="NPM" src="https://img.shields.io/badge/-NPM-fff?fff=flat&logo=npm" title="NPM" />
-	<img alt="Gulp" src="https://img.shields.io/badge/-Gulp-fff?cf4647=flat&logo=gulp" title="Gulp" />
-	<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" title="GitHub" />
-	<img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC" title="Visual Studio Code" />
-	<img alt="Figma" src="https://img.shields.io/badge/-Figma-2b2d34?fff&style=flat&logo=figma&logoColor=f24e1e" title="Figma" />
-</p>
-<!-- Cover -->
-<p align="center">
-	<img 
-		alt="cover"
-		loading="lazy"
-		src="./assets/img/cover.gif"
-		style="border-radius: 15px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,.5);"
-		title="Portfólio cover" 
-	/>
-</p>
+	<img alt="Gulp" src="https://img.shields.io/badge/-Gulp-fff?cf4647=flat&logo=gulpjs" title="Gulp" />
+	<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-fff?style=flat&logo=github&logoColor=333333" title="GitHub" />
+	<img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-fff?style=flat&logo=visual-studio-code&logoColor=007ACC" title="Visual Studio Code" />
+	<img alt="Figma" src="https://img.shields.io/badge/-Figma-fff?fff&style=flat&logo=figma&logoColor=eb4c1d" title="Figma" />
+</p>"
 <!-- Apresentação -->
 <h2 align="center">Bem-vindo ao projeto do meu portfólio!</h2>
 <p align="center">
@@ -54,22 +54,11 @@
 <details open="open">
 <summary>Índice</summary>
   <ul>
-    <li>
-      <a href="#sobre-o-projeto">Sobre o projeto</a>
-    </li>
-		<li>
-      <a href="#construido-com">Construido com</a>
-      <ul>
-        <li><a href="linguagens">Linguagens</a></li>
-        <li><a href="#frameworks-e-bibliotecas">Frameworks e bibliotecas</a></li>
-        <li><a href="#automatizadores">Automatizadores</a></li>
-        <li><a href="#debugging">Debugging</a></li>
-        <li><a href="#ferramentas">Ferramentas</a></li>
-      </ul>
-    </li>
-    <li><a href="#dependencias">Dependencias</a></li>
-    <li><a href="#licenca">License</a></li>
-    <li><a href="#agradecimentos">Agradecimentos</a></li>
+    <li><a href="#sobre-o-projeto-ℹ%EF%B8%8F">Sobre o projeto</a></li>
+		<li><a href="#construido-com-%EF%B8%8F">Construido com</a></li>
+    <li><a href="#dependencias-%EF%B8%8F">Dependencias</a></li>
+    <li><a href="#licenca-">License</a></li>
+    <li><a href="#agradecimentos-">Agradecimentos</a></li>
   </ul>
 </details>
 
