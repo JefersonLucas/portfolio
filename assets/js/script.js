@@ -10,15 +10,17 @@
 // GitHub API 
 const api = 'https://api.github.com/users/JefersonLucas';
 
-// Asynchronous requisition
+// Function with asynchronous request
 async function getAsyncAPI(url) {
   const response = await fetch(url);
   const json = await response.json();
   return json;
 }
 
+// JSOM passed to a variable data
 const data = getAsyncAPI(api);
 
+// JSOM response passed to HTML elements
 data.then((response) => {
   document.getElementById('avatar').src = response.avatar_url;
   document.getElementById('name').innerHTML = response.name;
@@ -32,7 +34,7 @@ data.then((response) => {
       setTimeout(() => element.innerHTML += Arraytext[i], 200 * i);
     }
   }
-
+  // Selecting the title element
   let title = document.querySelector('#typewriter');
   typewriter(title);
 
@@ -46,64 +48,71 @@ data.then((response) => {
 // Tech fly
 const ulTechFly = document.querySelector("ul.tech-fly");
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 13; i++) {
 
+  // Create element li
   const li = document.createElement("li");
 
+  // Function random
   const random = (min, max) => Math.random() * (max - min) + min;
 
+  // Random size, position, delay and duration
   const size = Math.floor(random(10, 120));
   const position = random(1, 80);
   const delay = random(5, 0.1);
   const duration = random(24, 12);
 
-  const icon = Math.floor(random(1, 13))
+  // Icon
+  const icon = i;
+  // 
+  const faIcon = icon => `<i class="fab fa-${icon} fa-2x"></i>`;
 
+  // Passing the icons to the li
   switch (icon) {
     case 1:
-      li.innerHTML = '<i class="fab fa-react fa-2x"></i>';
+      li.innerHTML = faIcon("react");
       break;
     case 2:
-      li.innerHTML = '<i class="fab fa-html5 fa-2x"></i>';
+      li.innerHTML = faIcon("html5");
       break;
     case 3:
-      li.innerHTML = '<i class="fab fa-node-js fa-2x"></i>';
+      li.innerHTML = faIcon("node-js");
       break;
     case 4:
-      li.innerHTML = '<i class="fab fa-sass fa-2x"></i>';
+      li.innerHTML = faIcon("sass");
       break;
     case 5:
-      li.innerHTML = '<i class="fab fa-angular fa-2x"></i>';
+      li.innerHTML = faIcon("angular");
       break;
     case 6:
-      li.innerHTML = '<i class="fab fa-css3-alt fa-2x"></i>';
+      li.innerHTML = faIcon("css3-alt");
       break;
     case 7:
-      li.innerHTML = '<i class="fab fa-vuejs fa-2x"></i>';
+      li.innerHTML = faIcon("vuejs");
       break;
     case 8:
-      li.innerHTML = '<i class="fab fa-bootstrap fa-2x"></i>';
+      li.innerHTML = faIcon("bootstrap");
       break;
     case 9:
-      li.innerHTML = '<i class="fab fa-js-square fa-2x"></i>';
+      li.innerHTML = faIcon("js-square");
       break;
     case 10:
-      li.innerHTML = '<i class="fab fa-npm fa-2x"></i>';
+      li.innerHTML = faIcon("npm");
       break;
     case 11:
-      li.innerHTML = '<i class="fab fa-git-alt fa-2x"></i>';
+      li.innerHTML = faIcon("git-alt");
       break;
     case 12:
-      li.innerHTML = '<i class="fab fa-code-branch fa-2x"></i>';
+      li.innerHTML = faIcon("gulp");
       break;
   }
-
+  // li Style
   li.style.bottom = `-${size}px`;
-
   li.style.left = `${position}%`;
   li.style.animationDelay = `${delay}s`;
   li.style.animationDuration = `${duration}s`;
   li.style.animationTimingFunction = `cubic-bezier(${Math.random()}, ${Math.random()}, ${Math.random()},${Math.random()})`;
 
+  // Ul child elements being injected
   ulTechFly.appendChild(li);
 }
