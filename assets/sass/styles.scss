@@ -1,0 +1,387 @@
+/*!
+ * Jeferson Luckas - Portfolio
+ *
+ * Copyright (c) 2021 Jeferson Lucas
+ * Released under the MIT license
+ * https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
+ *
+ */
+
+/*
+ * Styles
+ *
+ * color-dark: #0d1117;
+ * color-dark-2: #161b22;
+ * color-gray: #ffffff80;
+ * font: 'Poppins', sans-serif;
+ * Transitions: 20ms;
+ *
+ */
+
+$color-dark: #0d1117;
+$color-dark-2: #161b22;
+$color-white: #fff;
+$color-gray: #ffffff80;
+$font: 'Poppins', sans-serif;
+$transitions: 200ms;
+
+/* 
+ * Imports
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* 
+ * Globals 
+ */
+
+ body {
+	background: $color-dark;
+	font-family: $font;
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+	padding-inline-start: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	transition: all $transitions;
+}
+
+h1:hover {
+  animation: neon 5s infinite alternate;
+}
+
+/* 
+ * Load Spiner
+ */
+
+.spinner-wrapper {
+	background: $color-dark;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 999999;
+}
+
+.spinner {
+	left: 50%;
+	position: absolute;
+	height: 1.25rem;
+	margin: -0.625rem 0 0 -1.875rem;
+	text-align: center;
+	top: 50%;
+	width: 3.75rem;
+}
+
+.spinner > div {
+	animation: bounce-delay 1.4s infinite ease-in-out both;
+	background-color: $color-white;
+	border-radius: 100%;
+	display: inline-block;
+	height: 1rem;
+	width: 1rem;
+}
+
+.spinner .bounce1 {
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	animation-delay: -0.16s;
+}
+
+/*
+ * Header
+ */
+
+.header {
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.intro-header {
+	overflow: hidden;
+	background: linear-gradient(to bottom, $color-dark-2, $color-dark);
+	height: 100vh;
+}
+
+.divider {
+	width: 300px;
+	border-top: 1px solid $color-gray;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-header .container {
+	z-index: 1;
+}
+.intro-header a {
+	color: $color-white;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.intro-header a:hover {
+	color: $color-white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.intro-header .social-networks a {
+	color: $color-white;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.intro-header .social-networks a:hover {
+	color: $color-white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.intro-header .social-networks a i {
+	font-size: 1.8em;
+}
+
+/* 
+ * Typewriter
+ */
+
+#typewriter {
+	text-align: center;
+}
+
+#typewriter::after {
+	animation: blink 1s infinite;
+	bottom: 2px;
+	content: '|';
+	display: inline-block;
+	position: relative;
+	transition: $transitions;
+}
+
+/* 
+ * Card 
+ */
+
+.card {
+	align-items: center;
+	background: linear-gradient(to bottom, $color-dark-2, $color-dark);
+  box-shadow: 20px 20px 50px $color-dark;
+  border-radius: 15px;
+  border-top: 1px solid $color-gray;
+	border-left: 1px solid $color-gray;
+	color: #6c757d;
+	display: flex;
+	filter: blur(.2px);
+	height: auto;
+	justify-content: center;
+	padding: 25px;
+	position: relative;
+	transition: $transitions;
+	z-index: 100;
+	width: auto;
+	-webkit-box-reflect: below 2px linear-gradient(transparent, #0002);
+}
+.card:hover {
+	background: #ffffff1b;
+	filter: none;
+	z-index: 100;
+}
+#name {
+	padding: 0 25px;
+	position: relative;
+}
+#avatar {
+	transition: $transitions;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	filter: grayscale(1);
+}
+#bio {
+	transition: $transitions;
+}
+#bio:hover, #name:hover, #avatar:hover {
+	color: $color-white;
+	filter: none;
+	transform: scale(1.5);
+	z-index: 100;
+}
+
+/* 
+ * Social networks
+ */
+
+.social-networks {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	transition: $transitions;
+	width: 100%;
+}
+
+.social-networks a {
+	color: #000;
+	text-decoration: none;
+}
+
+.social-networks a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.social-networks a i {
+	cursor: pointer;
+	font-size: 1.2em;
+	margin: 0 10px;
+	transition: transform 350ms ease;
+}
+.social-networks a:hover>i {
+	transform: translateY(-5px) scale(2);
+}
+
+.fa-facebook:hover { color: #1873eb; }
+.fa-instagram:hover {	color:  #c5007a; }
+.fa-whatsapp:hover { color: #00a356; }
+.fa-linkedin:hover { color: #0073b1; }
+
+/* 
+ * Techs
+ */
+
+.fa-js-square,
+.fa-npm,
+.fa-git-alt,
+.fa-gulp,
+.fa-bootstrap,
+.fa-vuejs,
+.fa-css3-alt,
+.fa-angular,
+.fa-sass,
+.fa-node-js,
+.fa-html5,
+.fa-react {
+	transition: $transitions;
+}
+.fa-js-square:hover { color: #f7df1e; }
+.fa-react:hover {	color: #51d5f5; }
+.fa-html5:hover { color: #dd4b25; }
+.fa-node-js:hover {	color: #509941; }
+.fa-sass:hover { color: #c76395; }
+.fa-angular:hover { color: #d6032f; }
+.fa-vuejs:hover { color: #3fb27f; }
+.fa-css3-alt:hover { color: #254bdd; }
+.fa-bootstrap:hover { color: #7410f0; }
+.fa-gulp:hover { color: #c94345; }
+.fa-git-alt:hover {	color: #e94e31; }
+.fa-npm:hover { color: #c60000; }
+
+/*
+ * Tech fly
+ */
+
+.tech-fly li {
+	animation: fly 2s infinite alternate;
+	display: block;
+	position: absolute;
+	top: 490px;
+	height: 2rem;
+	z-index: 0;
+	width: 2rem;
+}
+
+
+/* 
+ * Animations
+ */
+
+@keyframes blink {
+	0%, 69% {
+		opacity: 1;
+	}
+
+	70%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes bounce-delay {
+	0%, 80%, 100% { 
+		transform: scale(0);
+	} 40% { 
+		transform: scale(1.0);
+	}
+}
+
+@keyframes fly {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-500px);
+	}
+}
+
+@keyframes neon {
+  from {
+		text-shadow:
+			0 0 10px $color-white,
+			0 0 20px $color-white,
+			0 0 30px $color-white,
+			0 0 40px $color-gray,
+			0 0 70px $color-gray,
+			0 0 80px $color-gray,
+			0 0 100px $color-gray,
+		 	0 0 150px $color-gray;
+  }
+  to {
+		text-shadow: 
+			0 0 5px $color-white,
+			0 0 10px $color-white,
+			0 0 15px $color-white,
+			0 0 20px $color-gray,
+			0 0 35px $color-gray,
+			0 0 40px $color-gray,
+			0 0 50px $color-gray,
+			0 0 75px $color-gray;
+  }
+}
+
+/*
+ * Media Query
+ */
+
+@media (max-width: 480px) {
+	.intro-header {
+		height: calc(var(--vh, 1vh) * 100);
+	}
+}
+
+@media(max-width: 430px) {
+	.intro-header .container h1 {
+		font-size: 2em;
+	}
+	.intro-header .container h4 {
+		font-size: 1.2em;
+	}
+}
