@@ -54,9 +54,9 @@
 <details open="open">
 <summary>Índice</summary>
   <ul>
-    <li><a href="#sobre-o-projeto-ℹ%EF%B8%8F">Sobre o projeto</a></li>
-		<li><a href="#construido-com-%EF%B8%8F">Construido com</a></li>
-    <li><a href="#dependencias-%EF%B8%8F">Dependencias</a></li>
+    <li><a href="#sobre-o-projeto-ℹ">Sobre o projeto</a></li>
+		<li><a href="#construido-com-">Construido com</a></li>
+    <li><a href="#dependencias-">Dependencias</a></li>
     <li><a href="#licenca-">Licença</a></li>
     <li><a href="#agradecimentos-">Agradecimentos</a></li>
     <li><a href="#links-">Links</a></li>
@@ -108,18 +108,23 @@ Tudo o que está incluído no projeto, incluindo os arquivos de código-fonte e 
 portfolio/
 ├── assets/
 │   ├── css/
-│   │   └── styles.css
+│   │   ├── styles.css
+│   │   └── styles.css.map
 │   ├── img/
 │   │   ├── favicon/
 │   │   │   └── favicon.ico
 │   │   ├── cover.gif
+│   │   ├── logo-transparent.png
 │   │   ├── logo.png
 │   │   └── social-preview.png
-│   └── js/
-│       ├── jquery.easing.min.js
-│       ├── main.js
-│       ├── script.js
-│       └── vanilla-tilt.js
+│   ├── js/
+│   │   ├── jquery.easing.min.js
+│   │   ├── main.js
+│   │   ├── script.js
+│   │   └── vanilla-tilt.js
+│   └── sass/
+│       └── styles.scss
+├── .gitignore
 ├── index.html
 ├── LICENSE.md
 └── README.md
