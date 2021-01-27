@@ -1,0 +1,40 @@
+/* 
+ * Load Spiner
+ */
+
+ .spinner-wrapper {
+	background: $color-dark;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 999999;
+}
+
+.spinner {
+	left: 50%;
+	position: absolute;
+	height: 1.25rem;
+	margin: -0.625rem 0 0 -1.875rem;
+	text-align: center;
+	top: 50%;
+	width: 3.75rem;
+}
+
+.spinner > div {
+	animation: bounce-delay 1.4s infinite ease-in-out both;
+	background-color: $color-white;
+	border-radius: 100%;
+	display: inline-block;
+	height: 1rem;
+	width: 1rem;
+}
+
+.spinner .bounce1 {
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	animation-delay: -0.16s;
+}

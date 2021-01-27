@@ -1,0 +1,18 @@
+/*
+ * Media Query
+ */
+
+ @media (max-width: 480px) {
+	.intro-header {
+		height: calc(var(--vh, 1vh) * 100);
+	}
+}
+
+@media(max-width: 430px) {
+	.intro-header .container h1 {
+		font-size: 2em;
+	}
+	.intro-header .container h4 {
+		font-size: 1.2em;
+	}
+}

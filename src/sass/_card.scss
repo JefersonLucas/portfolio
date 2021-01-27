@@ -1,0 +1,48 @@
+/* 
+ * Card 
+ */
+
+ .card {
+	align-items: center;
+	background: linear-gradient(to bottom, $color-dark-2, $color-dark);
+  box-shadow: 20px 20px 50px $color-dark;
+  border-radius: 15px;
+  border-top: 1px solid $color-gray;
+	border-left: 1px solid $color-gray;
+	color: #6c757d;
+	display: flex;
+	filter: blur(.2px);
+	height: auto;
+	justify-content: center;
+	padding: 25px;
+	position: relative;
+	transition: $transitions;
+	z-index: 100;
+	width: auto;
+	-webkit-box-reflect: below 2px linear-gradient(transparent, #0002);
+}
+.card:hover {
+	background: #ffffff1b;
+	filter: none;
+	z-index: 100;
+}
+#name {
+	padding: 0 25px;
+	position: relative;
+}
+#avatar {
+	transition: $transitions;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	filter: grayscale(1);
+}
+#bio {
+	transition: $transitions;
+}
+#bio:hover, #name:hover, #avatar:hover {
+	color: $color-white;
+	filter: none;
+	transform: scale(1.5);
+	z-index: 100;
+}

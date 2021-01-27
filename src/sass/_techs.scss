@@ -1,0 +1,30 @@
+/* 
+ * Techs
+ */
+
+ .fa-js-square,
+ .fa-npm,
+ .fa-git-alt,
+ .fa-gulp,
+ .fa-bootstrap,
+ .fa-vuejs,
+ .fa-css3-alt,
+ .fa-angular,
+ .fa-sass,
+ .fa-node-js,
+ .fa-html5,
+ .fa-react {
+   transition: $transitions;
+ }
+ .fa-js-square:hover { color: #f7df1e; }
+ .fa-react:hover {	color: #51d5f5; }
+ .fa-html5:hover { color: #dd4b25; }
+ .fa-node-js:hover {	color: #509941; }
+ .fa-sass:hover { color: #c76395; }
+ .fa-angular:hover { color: #d6032f; }
+ .fa-vuejs:hover { color: #3fb27f; }
+ .fa-css3-alt:hover { color: #254bdd; }
+ .fa-bootstrap:hover { color: #7410f0; }
+ .fa-gulp:hover { color: #c94345; }
+ .fa-git-alt:hover {	color: #e94e31; }
+ .fa-npm:hover { color: #c60000; }

@@ -1,0 +1,13 @@
+/*
+ * Tech fly
+ */
+
+ .tech-fly li {
+	animation: fly 2s infinite alternate;
+	display: block;
+	position: absolute;
+	top: 490px;
+	height: 2rem;
+	z-index: 0;
+	width: 2rem;
+}

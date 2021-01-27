@@ -1,0 +1,61 @@
+/* 
+ * Animations
+ */
+
+ @keyframes blink {
+	0%, 69% {
+		opacity: 1;
+	}
+
+	70%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes bounce-delay {
+	0%, 80%, 100% { 
+		transform: scale(0);
+	} 40% { 
+		transform: scale(1.0);
+	}
+}
+
+@keyframes fly {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-500px);
+	}
+}
+
+@keyframes neon {
+  from {
+		text-shadow:
+			0 0 10px $color-white,
+			0 0 20px $color-white,
+			0 0 30px $color-white,
+			0 0 40px $color-gray,
+			0 0 70px $color-gray,
+			0 0 80px $color-gray,
+			0 0 100px $color-gray,
+		 	0 0 150px $color-gray;
+  }
+  to {
+		text-shadow: 
+			0 0 5px $color-white,
+			0 0 10px $color-white,
+			0 0 15px $color-white,
+			0 0 20px $color-gray,
+			0 0 35px $color-gray,
+			0 0 40px $color-gray,
+			0 0 50px $color-gray,
+			0 0 75px $color-gray;
+  }
+}

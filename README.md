@@ -111,27 +111,40 @@ Tudo o que está incluído no projeto, incluindo os arquivos de código-fonte e 
 ```
 portfolio/
 ├── assets/
+│   └── img/
+│       ├── favicon/
+│       │   └── favicon.ico
+│       ├── cover.gif
+│       ├── logo-transparent.png
+│       ├── logo.png
+│       └── social-preview.png
+├── src/
 │   ├── css/
 │   │   ├── styles.css
 │   │   └── styles.css.map
-│   ├── img/
-│   │   ├── favicon/
-│   │   │   └── favicon.ico
-│   │   ├── cover.gif
-│   │   ├── logo-transparent.png
-│   │   ├── logo.png
-│   │   └── social-preview.png
 │   ├── js/
 │   │   ├── jquery.easing.min.js
 │   │   ├── main.js
 │   │   ├── script.js
 │   │   └── vanilla-tilt.js
 │   └── sass/
+│       ├── _animations.scss
+│       ├── _card.scss
+│       ├── _globals.scss
+│       ├── _header.scss
+│       ├── _media.scss
+│       ├── _social-network.scss
+│       ├── _spiner.scss
+│       ├── _tech-fly.scss
+│       ├── _techs.scss
+│       ├── _typewriter.scss
+│       ├── _variables.scss
 │       └── styles.scss
 ├── .gitignore
 ├── gulpfile.js
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── LICENSE.md
 └── README.md
 ```

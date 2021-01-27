@@ -1,0 +1,16 @@
+/* 
+ * Typewriter
+ */
+
+ #typewriter {
+	text-align: center;
+}
+
+#typewriter::after {
+	animation: blink 1s infinite;
+	bottom: 2px;
+	content: '|';
+	display: inline-block;
+	position: relative;
+	transition: $transitions;
+}
