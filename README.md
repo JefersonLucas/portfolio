@@ -39,9 +39,11 @@
 	<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-fff?style=plastic&logo=github&logoColor=333333" title="GitHub" />
 	<img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-fff?style=plastic&logo=visual-studio-code&logoColor=007ACC" title="Visual Studio Code" />
 	<img alt="Figma" src="https://img.shields.io/badge/-Figma-fff?fff&style=plastic&logo=figma" title="Figma" />
+	<img alt="Canva" src="https://img.shields.io/badge/-Canva-fff?fff&style=plastic&logo=canva" title="Canva" />
+	<img alt="Gimp" src="https://img.shields.io/badge/-Gimp-fff?fff&style=plastic&logo=gimp&logoColor=695740" title="Gimp" />
 </p>
 <!-- Apresentação -->
-<h2 align="center">👨🏻‍💻💼 Bem-vindo ao projeto do meu portfólio</h2>
+<h2 align="center">Bem-vindo ao projeto do meu portfólio 👨🏻‍💻💼</h2>
 <p align="center">
     <a href="https://jefersonlucas.github.io/portfolio/">Ver implementação</a>
     ·
@@ -77,7 +79,7 @@ Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias:
 	* [CSS](https://www.w3schools.com/css/) · Linguagem de folha de estilo.
 	* [HTML](https://www.w3schools.com/html/default.asp) · Linguagem de marcação de texto.
 	* [JavaScript](https://www.w3schools.com/js/default.asp) · Linguagem de programação.
-	* [jQuery](https://jquery.com/) biblioteca JavaScript de manipulação de documentos HTML.
+	* [jQuery](https://jquery.com/) · Biblioteca JavaScript de manipulação de documentos HTML.
 	* [JSON](https://www.json.org/json-en.html) · Notação de Objetos JavaScript para troca de dados.
 	* [Sass](https://sass-lang.com/) · Linguagem de extensão CSS.
 
@@ -98,7 +100,9 @@ Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias:
 
 * &#129520; Ferramentas
 	* [Visual Studio Code](https://code.visualstudio.com/) · Editor de código fonte.
-	* [Figma](https://www.figma.com/) · Ferramenta para design de interface.
+	* [Figma](https://www.figma.com/) · Design de interface e prototipação.
+	* [Canva](https://www.canva.com/) · Design de Logotipo.
+	* [Gimp](https://www.gimp.org/) · Criação e edição de imagens.
 
 <!-- Dependencias -->
 ## Dependencias &#128194;
@@ -125,7 +129,9 @@ portfolio/
 │   └── sass/
 │       └── styles.scss
 ├── .gitignore
+├── gulpfile.js
 ├── index.html
+├── package.json
 ├── LICENSE.md
 └── README.md
 ```

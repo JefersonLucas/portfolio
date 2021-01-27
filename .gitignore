@@ -124,5 +124,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# VSCode ignore
+# Folder VSCode ignore
 .vscode/
