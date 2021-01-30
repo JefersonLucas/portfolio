@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, $background-dark-2, $background-dark);
+}
+::-webkit-scrollbar-button {
+	background: linear-gradient(to bottom, $background-dark-2, $background-dark);
+  border-top: 1px solid $color-gray;
+  border-left: 1px solid $color-gray;
+  border-radius: 2px;
+  &:hover {
+    background: $background-hover;
+  }
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(to bottom, $background-dark-2, $background-dark);
+  border-top: 1px solid $color-gray;
+  border-left: 1px solid $color-gray;
+  border-radius: 3px;
+  &:hover {
+    background: $background-hover;
+  }
+}
+

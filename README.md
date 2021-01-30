@@ -59,9 +59,9 @@
     <li><a href="#sobre-o-projeto-ℹ">Sobre o projeto</a></li>
 		<li><a href="#construido-com-">Construido com</a></li>
     <li><a href="#dependencias-">Dependencias</a></li>
-    <li><a href="#licenca-">Licença</a></li>
-    <li><a href="#agradecimentos-">Agradecimentos</a></li>
     <li><a href="#links-">Links</a></li>
+    <li><a href="#agradecimentos-">Agradecimentos</a></li>
+    <li><a href="#licenca-">Licença</a></li>
   </ul>
 </details>
 
@@ -149,10 +149,13 @@ portfolio/
 └── README.md
 ```
 
-<!-- License -->
-## Licenca &#129534;
+## Links &#128279;
 
-Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md) para obter detalhes.
+Links úteis que utilizei ao longo do projeto.
+
+* [Origamid](https://www.youtube.com/watch?v=zx2axQoY_YM) - Efeito de Máquina de Escrever com JavaScript.
+* [FelixRilling](https://codepen.io/FelixRilling/pen/qzfoc) - Efeito Neon.
+* [CFBCursos](https://www.youtube.com/watch?v=P0S0JHAb3DY) - Barra de rolagem personalizada.
 
 <!-- Agradecimentos  -->
 ## Agradecimentos &#129309;&#127995;
@@ -166,9 +169,7 @@ Pessoas que de alguma forma, me inspiraram desenvolver esse projeto:
 
 Agradeço de coração! Mesmo que indiretamente vocês fizeram parte desse projeto! ❤️
 
-## Links &#128279;
+<!-- License -->
+## Licenca &#129534;
 
-Links úteis que utilizei ao longo do projeto.
-
-* [Origamid](https://www.youtube.com/watch?v=zx2axQoY_YM) - Efeito de Máquina de Escrever com JavaScript.
-* [FelixRilling](https://codepen.io/FelixRilling/pen/qzfoc) - Efeito Neon.
+Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md](https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md) para obter detalhes.
