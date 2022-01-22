@@ -27,6 +27,7 @@ body {
   font-family: "Fira sans", Arial, sans-serif;
   margin: 0px;
   color: var(--c14);
+  margin-bottom: 1000px;
 }
 
 h1,
@@ -45,4 +46,23 @@ ul {
 img {
   max-width: 100%;
   display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+  user-select: none;
 }
