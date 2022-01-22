@@ -5,7 +5,6 @@
 .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  max-width: 45ch;
   margin-bottom: 60px;
   color: var(--c10);
 }
@@ -86,7 +85,6 @@
 
   .experiencia-texto {
     font-size: 1.25rem;
-    max-width: initial;
   }
 
   .empresa-ano {
@@ -97,8 +95,11 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .experiencia {
+    height: 110vh;
   }
 }
