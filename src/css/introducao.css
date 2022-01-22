@@ -1,13 +1,7 @@
 .introducao {
-  max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-items: center;
-  gap: 100px;
+  margin-bottom: 90px;
 }
 
 .introducao h1 {
