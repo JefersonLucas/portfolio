@@ -1,7 +1,7 @@
 .introducao {
+  height: 75vh;
   align-items: center;
   justify-items: center;
-  margin-bottom: 90px;
 }
 
 .introducao h1 {
@@ -38,11 +38,14 @@
   .introducao {
     display: flex;
     flex-direction: column-reverse;
-    gap: 40px;
+    gap: 20px;
+    height: 100vh;
     align-items: center;
+    justify-content: flex-end;
   }
 
   .introducao img {
+    width: 400px;
     align-content: center;
     align-items: center;
   }
