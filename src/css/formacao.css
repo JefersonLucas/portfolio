@@ -122,7 +122,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 30px;
