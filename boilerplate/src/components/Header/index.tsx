@@ -10,6 +10,9 @@ const Header: React.FC = () => {
 			<S.Nav>
 				<S.Menu>
 					<S.Item>
+						<S.Link href="#sobre">Sobre</S.Link>
+					</S.Item>
+					<S.Item>
 						<S.Link href="#experiencia">Experiência</S.Link>
 					</S.Item>
 					<S.Item>
