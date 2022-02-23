@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const ExperienceContainer = styled.div`
+	background: ${({ theme }) => theme.colors.g1};
+`
+
 export const Container = styled.section`
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -33,7 +37,7 @@ export const Company = styled.div`
 	margin-bottom: 20px;
 
 	border-radius: 4px;
-	background: ${({ theme }) => theme.colors.g1};
+	background: ${({ theme }) => theme.colors.g2};
 
 	position: relative;
 
