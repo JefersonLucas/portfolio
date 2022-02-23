@@ -13,7 +13,21 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: "Fira sans", Arial, sans-serif;
-  }
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      cursor: pointer;
+      background: #e0e0e0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #a839ff;
+      border-radius: 20px;
+    }
+  }  
 
   ul {
     margin: 0px;
