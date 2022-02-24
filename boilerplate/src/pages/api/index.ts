@@ -26,39 +26,34 @@ export default function handler(_: NextApiRequest, res: NextApiResponse<User>) {
 				keywords: ['TypeScript', 'Next.js', 'React', 'React Native', 'GraphQL']
 			}
 		],
-		formation: [
-			{
-				id: 1,
-				description:
-					'Minha mais recente experiência acadêmica foi o MBA em Desenvolvimento Full Stack que estou fazendo pelo IGTI. Além disso me mantenho sempre atualizado com cursos intensivos online voltados para o desenvolvimento, arquitetura de código e UI.',
-				academic_experiences: [
-					{
-						id: 1,
-						institution: 'IGTI',
-						course: 'Desenvolvimento Full Stack',
-						type: 'MBA/Especialização'
-					},
-					{
-						id: 2,
-						institution: 'UNOPAR',
-						course: 'Análises e Desenvolvimento de Sistemas',
-						type: 'Tecnólogo'
-					}
-				],
-				intensive_courses: [
-					{ id: 1, course: 'Desenvolvedor Node.js', hours: 148 },
-					{ id: 2, course: 'Desenvolvedor React', hours: 148 },
-					{
-						id: 3,
-						course: 'Padrões de Projeto GoF e Princípios SOLID',
-						hours: 6.5
-					}
-				],
-				languages: [
-					{ id: 1, language: 'inglês', level: 'básico' },
-					{ id: 2, language: 'espanhol', level: 'básico' }
-				]
-			}
-		]
+		formation: {
+			academic_experiences: [
+				{
+					id: 1,
+					institution: 'IGTI',
+					course: 'Desenvolvimento Full Stack',
+					type: 'MBA/Especialização'
+				},
+				{
+					id: 2,
+					institution: 'UNOPAR',
+					course: 'Análises e Desenvolvimento de Sistemas',
+					type: 'Tecnólogo'
+				}
+			],
+			intensive_courses: [
+				{ id: 1, course: 'Desenvolvedor Node.js', hours: 148 },
+				{ id: 2, course: 'Desenvolvedor React', hours: 148 },
+				{
+					id: 3,
+					course: 'Padrões de Projeto GoF e Princípios SOLID',
+					hours: 6.5
+				}
+			],
+			languages: [
+				{ id: 1, language: 'inglês', level: 'básico' },
+				{ id: 2, language: 'espanhol', level: 'básico' }
+			]
+		}
 	})
 }

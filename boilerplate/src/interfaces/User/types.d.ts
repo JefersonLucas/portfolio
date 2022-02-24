@@ -1,7 +1,7 @@
 export interface User {
 	basic_info: BasicInfomation
 	experiences: Experiences[]
-	formation: Formation[]
+	formation: Formation
 }
 
 type BasicInfomation = {
@@ -29,8 +29,6 @@ type Experiences = {
 }
 
 type Formation = {
-	id: number
-	description: string
 	academic_experiences: AcademicExperiences[]
 	intensive_courses: IntensiveCourses[]
 	languages: Languages[]
