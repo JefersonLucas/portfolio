@@ -2,18 +2,21 @@ import React from 'react'
 
 import * as S from './styles'
 
-import { useTheme } from 'styled-components'
+import Section from 'components/Section'
+import Description from 'components/Description'
 import Subtitle from 'components/Subtitle'
+
+import { useTheme } from 'styled-components'
 
 const About: React.FC = () => {
 	const theme = useTheme()
 
 	return (
-		<S.Container aria-label="Sobre" id="sobre">
+		<Section aria_label="Sobre" id="sobre">
 			<Subtitle color={theme.colors.g3}>Sobre</Subtitle>
 
 			<S.Content>
-				<S.Description>
+				<Description color={theme.colors.g12} strong_color={theme.colors.black}>
 					Desenvolvedor graduado em{' '}
 					<strong>Análises e Desenvolvimento de Sistemas</strong> e me
 					especializando em <strong>MBA em Desenvolvimento Full Stack</strong>.
@@ -27,9 +30,9 @@ const About: React.FC = () => {
 					criativo, estou buscando uma empresa para aplicar meus conhecimentos
 					técnicos, obter crescimento pessoal e profissional, além, é claro, que
 					tenha um ótimo ambiente.
-				</S.Description>
+				</Description>
 			</S.Content>
-		</S.Container>
+		</Section>
 	)
 }
 
