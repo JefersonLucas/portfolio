@@ -3,6 +3,8 @@ import React, { useContext } from 'react'
 import * as S from './styles'
 
 import Subtitle from 'components/Subtitle'
+import Section from 'components/Section'
+import Description from 'components/Description'
 
 import { UserContext } from 'contexts/User/UserContext'
 import { useTheme } from 'styled-components'
@@ -13,16 +15,19 @@ const Experience: React.FC = () => {
 
 	return (
 		<S.ExperienceContainer>
-			<S.Container aria-label="Experiência" id="experiencia">
+			<Section aria_label="Experiência" id="experiencia">
 				<Subtitle color={theme.colors.g4}>Experiência</Subtitle>
 
 				<S.Content>
-					<S.Description>
+					<Description
+						color={theme.colors.g10}
+						strong_color={theme.colors.black}
+					>
 						Trabalho com desenvolvimento <strong>web</strong> e{' '}
 						<strong>mobile</strong>, desde pequenos projetos passando por
 						grandes <strong>aplicações</strong>, <strong>landing pages</strong>,{' '}
 						<strong>blogs</strong> e <strong>sistemas</strong>.
-					</S.Description>
+					</Description>
 
 					{data.user?.experiences.map(
 						({ id, year, company, occupation, description, keywords }) => (
@@ -41,7 +46,7 @@ const Experience: React.FC = () => {
 						)
 					)}
 				</S.Content>
-			</S.Container>
+			</Section>
 		</S.ExperienceContainer>
 	)
 }
