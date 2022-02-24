@@ -17,6 +17,7 @@ type SocialNetworks = {
 	linkedin: string
 	facebook: string
 	instagram: string
+	whatsapp: string
 }
 
 type Experiences = {
