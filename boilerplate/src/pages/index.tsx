@@ -10,7 +10,7 @@ import { ThemeProvider } from 'styled-components'
 import light from 'styles/themes/light'
 
 export default function Home() {
-	const { data: user, error } = useFetch<User>('http://localhost:3000/api')
+	const { data: user, error } = useFetch<User>(process.env.NEXT_PUBLIC_API_URL)
 
 	if (error) return <p>There is an error.</p>
 	if (!user) return <div>Loading</div>
