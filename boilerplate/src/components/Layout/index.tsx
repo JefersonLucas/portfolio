@@ -7,6 +7,7 @@ import Main from 'components/Main'
 import About from 'components/About'
 import Experience from 'components/Experience'
 import Formation from 'components/Formation'
+import Contact from 'components/Contact'
 
 const Layout: React.FC = () => {
 	return (
@@ -16,6 +17,7 @@ const Layout: React.FC = () => {
 			<About />
 			<Experience />
 			<Formation />
+			<Contact />
 		</Container>
 	)
 }
