@@ -12,7 +12,9 @@ export default function handler(_: NextApiRequest, res: NextApiResponse<User>) {
 			social_networks: {
 				linkedin: 'https://www.linkedin.com/in/jeferson-lucas/',
 				facebook: 'https://www.facebook.com/profile.php?id=100004317732004',
-				instagram: 'https://www.instagram.com/jeferson.luckas/'
+				instagram: 'https://www.instagram.com/jeferson.luckas/',
+				whatsapp:
+					'https://api.whatsapp.com/send?phone=+556198453785&amp;text=Olá,+tudo+bem?&amp;source=&amp;data=&amp;app_absent='
 			}
 		},
 		experiences: [
