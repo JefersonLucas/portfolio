@@ -5,6 +5,7 @@ import useFetch from 'hooks/useFetch'
 import { UserContext } from 'contexts/User/UserContext'
 
 import Layout from 'components/Layout'
+import Loader from 'components/Loader'
 
 import { ThemeProvider } from 'styled-components'
 import light from 'styles/themes/light'
@@ -13,7 +14,7 @@ export default function Home() {
 	const { data: user, error } = useFetch<User>(process.env.NEXT_PUBLIC_API_URL)
 
 	if (error) return <p>There is an error.</p>
-	if (!user) return <div>Loading</div>
+	if (!user) return <Loader />
 	return (
 		<ThemeProvider theme={light}>
 			<UserContext.Provider value={{ user }}>
