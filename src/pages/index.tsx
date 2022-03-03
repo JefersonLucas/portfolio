@@ -1,26 +1,20 @@
-import { User } from 'interfaces/User/types'
+import { NextPage } from 'next'
 
-import useFetch from 'hooks/useFetch'
-
-import { UserContext } from 'contexts/User/UserContext'
-
-import Layout from 'components/Layout'
-import Loader from 'components/Loader'
-import Error from 'components/Error'
+import UserProvider from 'contexts/User/UserProvider'
 
 import { ThemeProvider } from 'styled-components'
 import light from 'styles/themes/light'
 
-export default function Home() {
-	const { data: user, error } = useFetch<User>(process.env.NEXT_PUBLIC_API_URL)
+import Layout from 'components/Layout'
 
-	if (error) return <Error />
-	if (!user) return <Loader />
+const Home: NextPage = () => {
 	return (
-		<ThemeProvider theme={light}>
-			<UserContext.Provider value={{ user }}>
+		<UserProvider>
+			<ThemeProvider theme={light}>
 				<Layout />
-			</UserContext.Provider>
-		</ThemeProvider>
+			</ThemeProvider>
+		</UserProvider>
 	)
 }
+
+export default Home
