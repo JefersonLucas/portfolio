@@ -33,11 +33,40 @@ body {
   color: var(--c14);
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  cursor: pointer;
+  background: var(--c3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--v1);
+  border-radius: 20px;
+}
+
 h1,
 h2,
 h3,
 p {
   margin: 0px;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection,
+span::selection,
+strong::selection,
+ul::selection,
+li::selection,
+a::selection,
+br::selection,
+img::selection {
+  background-color: rgba(182,41,248,.7);
+  color: var(--c0);
 }
 
 ul {
