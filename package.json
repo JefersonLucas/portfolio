@@ -1,15 +1,15 @@
 {
-  "name": "portfolio",
-  "description": "Portfolio to demonstrate my projects and experiences throughout my career.",
-  "version": "2.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:JefersonLucas/portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JefersonLucas/portfolio/issues"
-  },
-  "author": "Jeferson Lucas <jeferson.luckas@gmail.com>",  
-  "homepage": "https://github.com/JefersonLucas/portfolio#readme",
-  "license": "MIT"
+	"name": "portfolio",
+	"description": "Portfolio to demonstrate my projects and experiences throughout my career.",
+	"version": "2.2.0",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:JefersonLucas/portfolio.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JefersonLucas/portfolio/issues"
+	},
+	"author": "Jeferson Lucas <jeferson.luckas@gmail.com>",
+	"homepage": "https://github.com/JefersonLucas/portfolio#readme",
+	"license": "MIT"
 }
