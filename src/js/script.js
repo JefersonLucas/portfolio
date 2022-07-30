@@ -1,27 +1,32 @@
-const typewriterElement = document.querySelector('[data-type="writer"]')
+window.addEventListener("load", () => {
+	document.getElementById("preload").remove();
 
-const stacks = ['Front End', 'Back End', 'Full Stack']
+	const typewriterElement = document.querySelector('[data-type="writer"]');
 
-let messageIndex, characterIndex, currentMessage, currentCharacters;
+	const stacks = ["Front End", "Back End", "Full Stack"];
 
-messageIndex = characterIndex = 0
-currentMessage = currentCharacters = ""
+	let messageIndex, characterIndex, currentMessage, currentCharacters;
 
-const type = () => {
-  const shouldTypeFirsMessage = messageIndex === stacks.length 
-  
-  shouldTypeFirsMessage && (messageIndex = 0)
+	messageIndex = characterIndex = 0;
+	currentMessage = currentCharacters = "";
 
-  currentMessage = stacks[messageIndex]
-  currentCharacters = currentMessage.slice(0, characterIndex++)
-  typewriterElement.textContent = currentCharacters
+	const type = () => {
+		const shouldTypeFirsMessage = messageIndex === stacks.length;
 
-  const shouldChangeMessageToBeTyped = currentCharacters.length === currentMessage.length
+		shouldTypeFirsMessage && (messageIndex = 0);
 
-  if(shouldChangeMessageToBeTyped) {
-    messageIndex++
-    characterIndex = 0
-  }
-}
+		currentMessage = stacks[messageIndex];
+		currentCharacters = currentMessage.slice(0, characterIndex++);
+		typewriterElement.textContent = currentCharacters;
 
-setInterval(type, 400)
+		const shouldChangeMessageToBeTyped =
+			currentCharacters.length === currentMessage.length;
+
+		if (shouldChangeMessageToBeTyped) {
+			messageIndex++;
+			characterIndex = 0;
+		}
+	};
+
+	setInterval(type, 400);
+});
