@@ -1,13 +1,3 @@
-<!--
-/*
-* Jeferson Luckas - Portfolio
-*
-* Copyright (c) 2022 Jeferson Lucas
-* Released under the MIT license
-* https://github.com/JefersonLucas/portfolio/blob/master/LICENSE.md
-*
-*/ -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,19 +5,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="Autor" content="Jeferson Lucas">
-	<meta name="description" content="Desenvolvedor Web Full Stack & Mobile">
+	<meta name="description" content="Desenvolvedor Web Full Stack">
 	<meta name="theme-color" content="#FFFFFF">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Vollkorn:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 	<link rel="stylesheet" href="./src/css/styles.css">
 	<link rel="icon" href="./src/img/favicon/favicon.png">
-	<title>Jeferson Lucas · Desenvolvedor Web Full Stack & Mobile</title>
+	<script src="./src/js/script.js" defer></script>
+	<title>Jeferson Lucas · Desenvolvedor Web Full Stack</title>
 </head>
 
 <body>
 	<header class="header">
-		<img src="./src/svg/logo.svg" alt="Logo">
+		<a href="/">
+			<img src="./src/svg/logo.svg" alt="Logo">
+		</a>
 
 		<nav>
 			<ul class="header-menu">
@@ -41,10 +35,11 @@
 	<main class="container introducao">
 		<img src="./src/img/profile.jpg" alt="Perfil">
 
-		<div>
-			<h1>Desenvolvedor Web <br>Full Stack & <br> Mobile</h1>
+		<div class="stack">
+			<h1>Desenvolvedor Web<br/>
+				<span data-type="writer" class="typing">Front End</span>
+			</h1>
 		</div>
-
 	</main>
 
 	<section aria-label="Experiência" class="container experiencia" id="experiencia">
@@ -54,17 +49,31 @@
 			<p class="experiencia-texto">Trabalho com desenvolvimento <strong>web</strong> e <strong>mobile</strong>, desde pequenos projetos passando por grandes <strong>aplicações</strong>, <strong>landing pages</strong>, <strong>blogs</strong> e <strong>sistemas</strong>.</p>
 
 			<div class="empresa">
-				<span class="empresa-ano">2021</span>
+				<span class="empresa-ano">2021-22</span>
 				<h3 class="empresa-titulo">3e Consulting</h3>
-				<span class="empresa-titulo">Desenvolvedor Jr.</span>
-				<p class="empresa-texto">Ajudei no desenvolvimento nos projetos web e mobile utilizando TypeScript, Next, React Native, Docker, GraphQL e Jest.
+				<span class="empresa-titulo">Desenvolvedor Front End</span>
+				<p class="empresa-texto">Desenvolvimento em projetos web e mobile utilizando: TypeScript, Next, React Native, Docker, GraphQL e Jest.
 				</p>
 				<ul class="empresa-habilidades">
 					<li>TypeScript</li>
 					<li>Next</li>
 					<li>React</li>
 					<li>React Native</li>
+					<li>Jest</li>
 					<li>GraphQL</li>
+				</ul>
+			</div>
+
+			<div class="empresa">
+				<span class="empresa-ano">2014-22</span>
+				<h3 class="empresa-titulo">Sena Aires</h3>
+				<span class="empresa-titulo">Técnico em TI</span>
+				<p class="empresa-texto">
+					Responsável técnico em TI, informática e manutenção.
+				</p>
+				<ul class="empresa-habilidades">
+					<li>TI</li>
+					<li>Informática</li>
 				</ul>
 			</div>
 

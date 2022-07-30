@@ -22,6 +22,36 @@
   z-index: -1;
 }
 
+.stack {
+  display: flex;  
+  align-items: top;
+  justify-content: center;
+  position: relative;
+}
+
+.typing {  
+  position: absolute;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 95%;
+  border-right: 2px solid black;
+  right: -5px;
+  animation: blink .8s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1150px) {
   .introducao h1 {
     font-size: 3rem;
@@ -53,5 +83,9 @@
   .introducao h1 {
     font-size: 2.5rem;
     margin: 0 auto;
+  }
+ 
+  .stack {
+    margin-bottom: 50px;
   }
 }
