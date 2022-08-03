@@ -100,3 +100,14 @@ img {
 	max-width: 4ch;
 	user-select: none;
 }
+
+section {
+	opacity: 0;
+	transform: translate3d(-40px, 0, 0);
+	transition: 0.7s;
+}
+
+section.animation-scroll {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
