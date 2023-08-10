@@ -326,3 +326,7 @@ themeButton.addEventListener("click", () => {
 	localStorage.setItem("selected-theme", getCurrentTheme());
 	localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*==================== INITIALIZE AOS ====================*/
+
+AOS.init();

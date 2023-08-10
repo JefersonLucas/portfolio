@@ -17,6 +17,9 @@
 	<!--==================== SWIPER CSS ====================-->
 	<link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
 
+	<!--==================== AOS ANIMATION CSS ====================-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<!--==================== CSS ====================-->
 	<link rel="stylesheet" href="./src/css/styles.css">
 
@@ -148,13 +151,13 @@
 
 		<!--==================== ABOUT ====================-->
 		<section class="about section" id="about" data-aos="fade-up">
-			<h2 class="section__title">Sobre mim</h2>
-			<span class="section__subtitle">Minha história</span>
+			<h2 class="section__title" data-aos="fade-up">Sobre mim</h2>
+			<span class="section__subtitle" data-aos="fade-up">Minha história</span>
 
 			<div class="about__container container grid">
-				<img src="src/img/about.jpg" draggable="false" alt="" class="about__img" />
+				<img src="src/img/about.jpg" draggable="false" alt="" class="about__img" data-aos="fade-right" />
 
-				<div class="about__data">
+				<div class="about__data" data-aos="fade-left">
 					<p class="about__description">
 						Nos últimos meses tenho desenvolvido sistemas e aprimorando projetos com melhores práticas e frameworks do mercado.
 					</p>
@@ -188,12 +191,12 @@
 
 		<!--==================== SKILLS ====================-->
 		<section class="skills section" id="skills">
-			<h2 class="section__title">Habilidades</h2>
-			<span class="section__subtitle">Meu nível técnico</span>
+			<h2 class="section__title" data-aos="fade-up">Habilidades</h2>
+			<span class="section__subtitle" data-aos="fade-up">Meu nível técnico</span>
 
 			<div class="skills__container container grid">
 				<!--==================== SKILL 1 ====================-->
-				<div>
+				<div data-aos="zoom-in-up">
 					<div class="skills__content skills__close">
 						<div class="skills__header">
 							<i class="uil uil-arrow skills__icon"></i>
@@ -258,7 +261,8 @@
 						</div>
 					</div>
 				</div>
-				<div>
+
+				<div data-aos="zoom-in-up">
 					<!--==================== SKILL 2 ====================-->
 					<div class="skills__content skills__close">
 						<div class="skills__header">
@@ -327,7 +331,8 @@
 						</div>
 					</div>
 				</div>
-				<div>
+
+				<div data-aos="zoom-in-up">
 					<!--==================== SKILL 3 ====================-->
 					<div class="skills__content skills__close">
 						<div class="skills__header">
@@ -402,11 +407,11 @@
 
 		<!--==================== QUALIFICATION ====================-->
 		<section class="qualification section">
-			<h2 class="section__title">Qualificação</h2>
-			<span class="section__subtitle">Minha jornada até aqui</span>
+			<h2 class="section__title" data-aos="fade-up">Qualificação</h2>
+			<span class="section__subtitle" data-aos="fade-up">Minha jornada até aqui</span>
 
 			<div class="qualification__container container">
-				<div class="qualification__tabs">
+				<div class="qualification__tabs" data-aos="fade-up">
 					<div class="qualification__button button--flex qualification__active" data-target="#education">
 						<i class="uil uil-graduation-cap qualification__icon"></i>
 						Formações
@@ -417,7 +422,7 @@
 					</div>
 				</div>
 
-				<div class="qualification__sections">
+				<div class="qualification__sections" data-aos="fade-up">
 					<!--==================== QUALIFICATION CONTENT 1 ====================-->
 					<div class="qualification__content qualification__active" data-content id="education">
 						<!--==================== QUALIFICATION 1 ====================-->
@@ -520,12 +525,12 @@
 
 		<!--==================== SERVICES ====================-->
 		<section class="services section" id="services">
-			<h2 class="section__title">Serviços</h2>
-			<span class="section__subtitle">Quais valores entrego</span>
+			<h2 class="section__title" data-aos="fade-up">Serviços</h2>
+			<span class="section__subtitle" data-aos="fade-up">Quais valores entrego</span>
 
 			<div class="services__container container grid">
 				<!--==================== SERVICES 1 ====================-->
-				<div class="services__content">
+				<div class="services__content" data-aos="flip-left" data-aos-delay="500">
 					<div>
 						<i class="uil uil-arrow services__icon"></i>
 						<h3 class="services__title">Desenvolvedor<br>Frontend</h3>
@@ -563,7 +568,7 @@
 				</div>
 
 				<!--==================== SERVICES 2 ====================-->
-				<div class="services__content">
+				<div class="services__content" data-aos="flip-left" data-aos-delay="750">
 					<div>
 						<i class="uil uil-server services__icon"></i>
 						<h3 class="services__title">Desenvolvedor<br>Backend</h3>
@@ -597,7 +602,7 @@
 				</div>
 
 				<!--==================== SERVICES 3 ====================-->
-				<div class="services__content">
+				<div class="services__content" data-aos="flip-left" data-aos-delay="1000">
 					<div>
 						<i class="uil uil-mobile-android-alt services__icon"></i>
 						<h3 class="services__title">Desenvolvedor<br>Mobile</h3>
@@ -634,10 +639,10 @@
 
 		<!--==================== PORTFOLIO ====================-->
 		<section class="portfolio section" id="portfolio">
-			<h2 class="section__title">Portfólio</h2>
-			<span class="section__subtitle">Meus trabalhos recentes</span>
+			<h2 class="section__title" data-aos="fade-up">Portfólio</h2>
+			<span class="section__subtitle" data-aos="fade-up">Meus trabalhos recentes</span>
 
-			<div class="portfolio__container container swiper-container">
+			<div class="portfolio__container container swiper-container" data-aos="fade-up">
 				<div class="swiper-wrapper">
 
 					<!--==================== PORTFOLIO 1 ====================-->
@@ -719,10 +724,10 @@
 
 		<!--==================== TESTIMONIAL ====================-->
 		<section class="testimonial section">
-			<h2 class="section__title">Depoimentos</h2>
-			<span class="section__subtitle">O que meus clientes colegas dizem sobre mim</span>
+			<h2 class="section__title" data-aos="fade-up">Depoimentos</h2>
+			<span class="section__subtitle" data-aos="fade-up">O que meus clientes e colegas dizem</span>
 
-			<div class="testimonial__container container swiper-container">
+			<div class="testimonial__container container swiper-container" data-aos="fade-up">
 				<div class="swiper-wrapper">
 					<!--==================== TESTIMONIAL 1 ====================-->
 					<div class="testimonial__content swiper-slide">
@@ -732,7 +737,7 @@
 
 								<div>
 									<h3 class="testimonial__name">Sara Smith</h3>
-									<span class="testimonial__client">Full Stack Developer at Google</span>
+									<span class="testimonial__client">Full Stack Developer</span>
 								</div>
 							</div>
 
@@ -747,7 +752,7 @@
 						</div>
 
 						<p class="testimonial__description">
-							O Jeferson foi a peça-chave que transformou nossa visão em realidade digital. Sua habilidade em traduzir nossas ideias em código foi impressionante, e ele conseguiu equilibrar perfeitamente a funcionalidade do sistema com a experiência do usuário. Além disso, sua disposição em explicar conceitos complexos de forma compreensível foi fundamental para que nossa equipe entendesse plenamente cada etapa do processo. Não poderíamos estar mais satisfeitos com o resultado final.
+							O Jeferson foi a peça-chave que transformou nossa visão em realidade digital.
 						</p>
 					</div>
 					<!--==================== TESTIMONIAL 2 ====================-->
@@ -758,7 +763,7 @@
 
 								<div>
 									<h3 class="testimonial__name">Math Robinson</h3>
-									<span class="testimonial__client">UI/UX Design at Instagram</span>
+									<span class="testimonial__client">UI/UX Design</span>
 								</div>
 							</div>
 
@@ -773,7 +778,7 @@
 						</div>
 
 						<p class="testimonial__description">
-							Trabalhar com o Jeferson foi uma verdadeira parceria. Sua capacidade de mergulhar nas tecnologias mais recentes e aplicá-las de maneira prática ao nosso projeto foi notável. Ele se destacou não apenas na codificação impecável, mas também na identificação proativa de possíveis melhorias e na resolução rápida de problemas. Seu profissionalismo e comprometimento foram cruciais para o sucesso da nossa plataforma.
+							Trabalhar com o Jeferson foi uma verdadeira parceria.
 						</p>
 					</div>
 					<!--==================== TESTIMONIAL 3 ====================-->
@@ -784,7 +789,7 @@
 
 								<div>
 									<h3 class="testimonial__name">Raul Harris</h3>
-									<span class="testimonial__client">Mobile Developer at Twitter</span>
+									<span class="testimonial__client">Mobile Developer</span>
 								</div>
 							</div>
 
@@ -799,7 +804,7 @@
 						</div>
 
 						<p class="testimonial__description">
-							O Jeferson não apenas entregou um produto excepcional, mas também se destacou por sua ética de trabalho impecável. Sua abordagem metódica, combinada com uma compreensão profunda das complexidades técnicas, resultou em uma aplicação que funciona perfeitamente em todos os aspectos. Além disso, sua disposição em se envolver ativamente em todo o processo, desde o planejamento até a implementação, mostrou sua dedicação genuína ao sucesso do projeto.
+							O Jeferson não apenas entregou um produto excepcional, mas também se destacou por sua ética de trabalho impecável.
 						</p>
 					</div>
 
@@ -941,6 +946,9 @@
 
 	<!--==================== SWIPER JS ====================-->
 	<script src="./src/js/swiper-bundle.min.js"></script>
+
+	<!--==================== AOS ANIMATION JS ====================-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 	<!--==================== SCRIPT JS ====================-->
 	<script src="./src/js/script.js"></script>
