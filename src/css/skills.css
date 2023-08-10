@@ -1,0 +1,133 @@
+/*==================== SKILLS ====================*/
+
+.skills__container {
+	row-gap: 0;
+}
+
+.skills__header {
+	display: flex;
+	align-items: center;
+	margin-bottom: var(--mb-2-5);
+	cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+	font-size: 2rem;
+	color: var(--first-color);
+}
+
+.skills__icon {
+	margin-right: var(--mb-0-75);
+}
+
+.skills__title {
+	font-size: var(--h3-font-size);
+}
+
+.skills__subtitle {
+	font-size: var(--small-font-size);
+	color: var(--text-color-light);
+}
+
+.skills__arrow {
+	margin-left: auto;
+	transition: 0.3s;
+}
+
+.skills__list {
+	row-gap: 1.5rem;
+	padding-left: 2.7rem;
+}
+
+.skills__titles {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage {
+	height: 5px;
+	border-radius: 0.25rem;
+}
+
+.skills__bar {
+	background-color: var(--first-color-lighter);
+}
+
+.skills__percentage {
+	display: block;
+	background-color: var(--first-color);
+}
+
+.progressIn70 {
+	animation: progressIn70 2.5s ease-in-out both;
+}
+
+.progressIn80 {
+	animation: progressIn80 2.5s ease-in-out both;
+}
+
+.progressIn90 {
+	animation: progressIn90 2.5s ease-in-out both;
+}
+
+.skills__close .skills__list {
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.skills__open .skills__list {
+	height: max-content;
+	margin-bottom: var(--mb-2-5);
+	transition: 0.7s;
+	opacity: 1;
+}
+
+.skills__open .skills__arrow {
+	transform: rotate(-180deg);
+	transition: 0.7s;
+}
+
+@keyframes progressIn70 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes progressIn80 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+
+@keyframes progressIn90 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes progressAvanced {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 100%;
+	}
+}
