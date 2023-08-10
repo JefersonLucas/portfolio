@@ -15,11 +15,10 @@
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
 
 	<!--==================== SWIPER CSS ====================-->
-	<link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
 
 	<!--==================== CSS ====================-->
 	<link rel="stylesheet" href="./src/css/styles.css">
-
 
 	<title>Jeferson Lucas · Desenvolvedor Frontend, Backend, Mobile e Full Stack</title>
 </head>
@@ -28,23 +27,920 @@
 
 	<!--==================== HEADER ====================-->
 	<header class="header" id="header">
-	</header>
+		<nav class="nav container">
+			<a href="#" class="nav__logo">Jeferson</a>
 
+			<div class="nav__menu bounce" id="nav-menu">
+				<ul class="nav__list grid">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">
+							<i class="uil uil-estate nav__icon"></i> Início
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">
+							<i class="uil uil-user nav__icon"></i> Sobre
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">
+							<i class="uil uil-award nav__icon"></i>
+							Habilidades
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#services" class="nav__link">
+							<i class="uil uil-briefcase-alt nav__icon"></i> Serviços
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#portfolio" class="nav__link">
+							<i class="uil uil-scenery nav__icon"></i> Portfólio
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">
+							<i class="uil uil-message nav__icon"></i> Contato
+						</a>
+					</li>
+				</ul>
+				<i class="uil uil-times nav__close" id="nav-close"></i>
+			</div>
+
+			<div class="nav__btns" id="nav-btns">
+				<!--==================== THEME CHANGE BUTTON ====================-->
+				<i class="uil uil-moon change-theme" id="theme-button"></i>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="uil uil-apps"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
 
 	<!--==================== MAIN ====================-->
 	<main class="main">
 		<!--==================== HOME ====================-->
 		<section class="home section" id="home">
+			<div class="home__container container grid">
+				<div class="home__content grid">
+					<div class="home__social">
+						<a href="https://www.linkedin.com/in/jeferson-lucas/" target="_blank" class="home__social-icon">
+							<i class="uil uil-linkedin-alt"></i>
+						</a>
+						<a href="https://www.youtube.com/channel/UCivyyj1pFMq78HpAIzn1Pdg" target="_blank" class="home__social-icon">
+							<i class="uil uil-youtube"></i>
+						</a>
+						<a href="https://github.com/JefersonLucas" target="_blank" class="home__social-icon">
+							<i class="uil uil-github-alt"></i>
+						</a>
+					</div>
+
+					<div class="home__img">
+						<svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<mask id="mask0" mask-type="alpha">
+								<path>
+									<animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+									130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+									97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+									0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z;
+									M188 45.5C204.27 71.1308 195.981 97.14 177 128.5C158.018 159.861 130.807 176.706 100.226 175.5C69.6454 174.444 46.2825 160.161 27 128.5C7.71747 96.9891 12.8393 70.0754 26.9999 45.5C41.3112 21.0753 61.9622 13.8496 100.226 14.0003C138.489 14.3019 171.881 19.8691 188 45.5Z;
+									M183 40.5002C199.27 66.131 201.981 91.6405 183 123.001C164.018 154.362 130.807 163.706 100.226 162.5C69.6454 161.444 42.7826 160.162 23.5001 128.501C4.21751 96.9896 12.8395 58.0755 27.0001 33.5001C41.3114 9.07541 61.9622 -1.15059 100.226 -0.999823C138.489 -0.698285 166.881 14.8693 183 40.5002Z;
+									M166 48.5C182.27 74.1308 201.981 91.6403 183 123C164.018 154.361 130.807 163.706 100.226 162.5C69.6454 161.444 42.7825 160.161 23.5 128.5C4.21749 96.9895 24.8394 65.0756 39 40.5002C53.3113 16.0755 61.9622 -1.15076 100.226 -0.999995C138.489 -0.698456 149.881 22.8691 166 48.5Z;
+									M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+									130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+									97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+									0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"></animate>
+								</path>
+							</mask>
+							<g mask="url(#mask0)">
+								<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+									165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+									129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+									-0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+								<image class="home__blob-img" xlink:href="src/img/perfil.png" x="12" y="18" />
+							</g>
+						</svg>
+					</div>
+
+					<div class="home__data">
+						<h1 class="home__title">Olá, sou o <strong class="title-gradient">Jeferson</strong></h1>
+						<h3 class="home__subtitle">Desenvolvedor</h3>
+						<h3 class="home__subtitle typing" data-type="writer">Front End, Back End, Mobile & Full Stack</h3>
+						<p class="home__description">
+							Construindo experiências de alto nível em desenvolvimento e design.
+						</p>
+						<a href="#contact" class="button button--flex">
+							Contato <i class="uil uil-message button__icon"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="home__scroll">
+					<a href="#about" class="home__scroll-button button--flex">
+						<i class="uil uil-mouse-alt home__scroll-mouse"></i>
+						<span class="home__scroll-name">Role para baixo</span>
+						<i class="uil uil-arrow-down home__scroll-arrow"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!--==================== ABOUT ====================-->
+		<section class="about section" id="about" data-aos="fade-up">
+			<h2 class="section__title">Sobre mim</h2>
+			<span class="section__subtitle">Minha história</span>
+
+			<div class="about__container container grid">
+				<img src="src/img/about.jpg" draggable="false" alt="" class="about__img" />
+
+				<div class="about__data">
+					<p class="about__description">
+						Nos últimos meses tenho desenvolvido sistemas e aprimorando projetos com melhores práticas e frameworks do mercado.
+					</p>
+
+					<div class="about__info">
+						<div>
+							<span class="about__info-title">02+</span>
+							<span class="about__info-name">Anos <br />
+								experiência</span>
+						</div>
+						<div>
+							<span class="about__info-title">03+</span>
+							<span class="about__info-name">Projetos<br />
+								completos</span>
+						</div>
+						<div>
+							<span class="about__info-title">02+</span>
+							<span class="about__info-name">Empresas <br />
+								atuadas</span>
+						</div>
+					</div>
+
+					<div class="about__buttons">
+						<a download="" href="src/documents/jeferson-lucas-cv-desenvolvedor-full-stack.pdf" class="button button--flex">
+							Download CV <i class="uil uil-download-alt button__icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--==================== SKILLS ====================-->
+		<section class="skills section" id="skills">
+			<h2 class="section__title">Habilidades</h2>
+			<span class="section__subtitle">Meu nível técnico</span>
+
+			<div class="skills__container container grid">
+				<!--==================== SKILL 1 ====================-->
+				<div>
+					<div class="skills__content skills__close">
+						<div class="skills__header">
+							<i class="uil uil-arrow skills__icon"></i>
+
+							<div>
+								<h1 class="skills__title">Desenvolvedor Frontend</h1>
+								<span class="skills__subtitle">Mais de 2 anos</span>
+							</div>
+
+							<i class="uil uil-angle-down skills__arrow"></i>
+						</div>
+
+						<div class="skills__list grid">
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">ReactJS</h3>
+									<span>
+										<span class="skills__number" data-value="90">90</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="frontend-skill-01"></span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Next.js</h3>
+									<span>
+										<span class="skills__number" data-value="80">80</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="frontend-skill-02"></span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Tailwind CSS</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="frontend-skill-03"></span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Redux + Zustantd</h3>
+									<span>
+										<span class="skills__number" data-value="80">80</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="frontend-skill-04"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--==================== SKILL 2 ====================-->
+					<div class="skills__content skills__close">
+						<div class="skills__header">
+							<i class="uil uil-server skills__icon"></i>
+
+							<div>
+								<h1 class="skills__title">Desenvolvedor Backend</h1>
+								<span class="skills__subtitle">Mais de 2 anos</span>
+							</div>
+
+							<i class="uil uil-angle-down skills__arrow"></i>
+						</div>
+
+						<div class="skills__list grid">
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Node.js</h3>
+									<span>
+										<span class="skills__number" data-value="80">80</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="backend-skill-01"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">NestJS</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="backend-skill-02"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">PostgreSQL</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="backend-skill-03"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Docker</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="backend-skill-04"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--==================== SKILL 3 ====================-->
+					<div class="skills__content skills__close">
+						<div class="skills__header">
+							<i class="uil uil-mobile-android skills__icon"></i>
+
+							<div>
+								<h1 class="skills__title">Desenvolvedor Mobile</h1>
+								<span class="skills__subtitle">Mais de 2 anos</span>
+							</div>
+
+							<i class="uil uil-angle-down skills__arrow"></i>
+						</div>
+
+						<div class="skills__list grid">
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Expo</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="mobile-skill-01"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Reanimated e Skia</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="mobile-skill-02"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Push Notification e Deep linking</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="mobile-skill-03"></span>
+								</div>
+							</div>
+
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Expo Application Services (EAS)</h3>
+									<span>
+										<span class="skills__number" data-value="70">70</span>%
+									</span>
+								</div>
+
+								<div class="skills__bar">
+									<span class="skills__percentage" id="mobile-skill-04"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<!--==================== QUALIFICATION ====================-->
+		<section class="qualification section">
+			<h2 class="section__title">Qualificação</h2>
+			<span class="section__subtitle">Minha jornada até aqui</span>
+
+			<div class="qualification__container container">
+				<div class="qualification__tabs">
+					<div class="qualification__button button--flex qualification__active" data-target="#education">
+						<i class="uil uil-graduation-cap qualification__icon"></i>
+						Formações
+					</div>
+					<div class="qualification__button button--flex" data-target="#works">
+						<i class="uil uil-briefcase-alt qualification__icon"></i>
+						Trabalhos
+					</div>
+				</div>
+
+				<div class="qualification__sections">
+					<!--==================== QUALIFICATION CONTENT 1 ====================-->
+					<div class="qualification__content qualification__active" data-content id="education">
+						<!--==================== QUALIFICATION 1 ====================-->
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">Bacharel em ADS</h3>
+								<span class="qualification__subtitle">Unopar</span>
+								<div class="qualification__calendar">
+									<i class="uil uil-calendar-alt"></i>
+									2016 - 2019
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+						</div>
+
+						<!--==================== QUALIFICATION 2 ====================-->
+						<div class="qualification__data">
+							<div></div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<!-- <span class="qualification__line"></span> -->
+							</div>
+
+							<div>
+								<h3 class="qualification__title">MBA em Desenvolvimento Full Stack</h3>
+								<span class="qualification__subtitle">XP Educação - IGTI</span>
+								<div class="qualification__calendar">
+									<i class="uil uil-calendar-alt"></i>
+									2021 - 2022
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!--==================== QUALIFICATION CONTENT 2 ====================-->
+					<div class="qualification__content" data-content id="works">
+						<!--==================== QUALIFICATION 1 ====================-->
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">Responsável em TI</h3>
+								<span class="qualification__subtitle">Facesa</span>
+								<div class="qualification__calendar">
+									<i class="uil uil-calendar-alt"></i>
+									2014 - presente
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+						</div>
+
+						<!--==================== QUALIFICATION 2 ====================-->
+						<div class="qualification__data">
+							<div></div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<span class="qualification__line"></span>
+							</div>
+
+							<div>
+								<h3 class="qualification__title">Desenvolvedor Frontend</h3>
+								<span class="qualification__subtitle">3e Consulting</span>
+								<div class="qualification__calendar">
+									<i class="uil uil-calendar-alt"></i>
+									2021 - 2022
+								</div>
+							</div>
+
+						</div>
+
+						<!--==================== QUALIFICATION 3 ====================-->
+						<div class="qualification__data">
+							<div>
+								<h3 class="qualification__title">Desenvolvedor Full Stack</h3>
+								<span class="qualification__subtitle">Same Day Tecnologia</span>
+								<div class="qualification__calendar">
+									<i class="uil uil-calendar-alt"></i>
+									2022 - 2023
+								</div>
+							</div>
+
+							<div>
+								<span class="qualification__rounder"></span>
+								<!-- <span class="qualification__line"></span> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--==================== SERVICES ====================-->
+		<section class="services section" id="services">
+			<h2 class="section__title">Serviços</h2>
+			<span class="section__subtitle">Quais valores entrego</span>
+
+			<div class="services__container container grid">
+				<!--==================== SERVICES 1 ====================-->
+				<div class="services__content">
+					<div>
+						<i class="uil uil-arrow services__icon"></i>
+						<h3 class="services__title">Desenvolvedor<br>Frontend</h3>
+					</div>
+
+					<span class="button button--flex button--smal button--link services__button">
+						Ver mais
+						<i class="uil uil-arrow-right button__icon"></i>
+					</span>
+
+					<div class="services__modal">
+						<div class="services__modal-content">
+							<h4 class="services__modal-title">Desenvolvedor<br>Frontend</h4>
+							<i class="uil uil-times services__modal-close"></i>
+							<ul class="services__modal-services grid">
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Sites, layouts e landing pages
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Aplicativos, sistemas e soluções web
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Aplicações robustas e escaláveis
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									SEO aprimorado para buscadores
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!--==================== SERVICES 2 ====================-->
+				<div class="services__content">
+					<div>
+						<i class="uil uil-server services__icon"></i>
+						<h3 class="services__title">Desenvolvedor<br>Backend</h3>
+					</div>
+
+					<span class="button button--flex button--smal button--link services__button">
+						Ver mais
+						<i class="uil uil-arrow-right button__icon"></i>
+					</span>
+
+					<div class="services__modal">
+						<div class="services__modal-content">
+							<h4 class="services__modal-title">Desenvolvedor<br>Backend</h4>
+							<i class="uil uil-times services__modal-close"></i>
+							<ul class="services__modal-services grid">
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									APIs e aplicações testáveis, código limpo e padrões de projeto.
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Configuração e manutenção de servidores e ambientes de desenvolvimento.
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Segurança e escalabilidade nas aplicações web.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!--==================== SERVICES 3 ====================-->
+				<div class="services__content">
+					<div>
+						<i class="uil uil-mobile-android-alt services__icon"></i>
+						<h3 class="services__title">Desenvolvedor<br>Mobile</h3>
+					</div>
+
+					<span class="button button--flex button--smal button--link services__button">
+						Ver mais
+						<i class="uil uil-arrow-right button__icon"></i>
+					</span>
+
+					<div class="services__modal">
+						<div class="services__modal-content">
+							<h4 class="services__modal-title">Desenvolvedor<br>Mobile</h4>
+							<i class="uil uil-times services__modal-close"></i>
+							<ul class="services__modal-services grid">
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Aplicativos para celular (Android e/ou iOS)
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Interfaces (layout e comportamento) do aplicativo
+								</li>
+								<li class="services__modal-service">
+									<i class="uil uil-check-circle services__modal-icon"></i>
+									Garantia que o aplicativo desenvolvido funcione corretamente para as versões de sistema especificadas
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--==================== PORTFOLIO ====================-->
+		<section class="portfolio section" id="portfolio">
+			<h2 class="section__title">Portfólio</h2>
+			<span class="section__subtitle">Meus trabalhos recentes</span>
+
+			<div class="portfolio__container container swiper-container">
+				<div class="swiper-wrapper">
+
+					<!--==================== PORTFOLIO 1 ====================-->
+					<div class="portfolio__content grid swiper-slide">
+						<img src="./src/img/project-1.png" alt="" class="portfolio__img">
+						<div class="portfolio__data">
+							<h3 class="portfolio__title">DIVAM</h3>
+							<span class="portfolio__type">Front-end & Mobile</span>
+
+							<p class="portfolio__description">Plataforma on-line de atendimento psicológico.</p>
+							<a href="https://divam.com.br/" target="_blank" class="button button--flex button--small portfolio__button">Site
+
+								<i class="uil uil-arrow-right button__icon"></i>
+							</a>
+						</div>
+					</div>
+					<!--==================== PORTFOLIO 2 ====================-->
+					<div class="portfolio__content grid swiper-slide">
+						<img src="./src/img/project-2.png" alt="" class="portfolio__img">
+						<div class="portfolio__data">
+							<h3 class="portfolio__title">Same Day</h3>
+							<span class="portfolio__type">Full Stack</span>
+
+							<p class="portfolio__description">Plataforma on-line para cadastro de motoristas para solicitações e entregas de produtos de mesma região.</p>
+							<a href="http://www.sameday.com.br/" target="_blank" class="button button--flex button--small portfolio__button">Site
+
+								<i class="uil uil-arrow-right button__icon"></i>
+							</a>
+						</div>
+					</div>
+
+					<!--==================== PORTFOLIO 3 ====================-->
+					<div class="portfolio__content grid swiper-slide">
+						<img src="./src/img/project-3.png" alt="" class="portfolio__img">
+						<div class="portfolio__data">
+							<h3 class="portfolio__title">Reserve</h3>
+							<span class="portfolio__type">Full Stack</span>
+
+							<p class="portfolio__description">Sistema web para cadastro e gerenciamento de reservas de equipamentos.</p>
+							<a href="https://github.com/JefersonLucas/reserve.io-dashboard" target="_blank" class="button button--flex button--small portfolio__button">Dashboard
+
+								<i class="uil uil-arrow-right button__icon"></i>
+							</a>
+							<a href="https://github.com/JefersonLucas/reserve.io-server" target="_blank" class="button button--flex button--small portfolio__button">Server
+
+								<i class="uil uil-arrow-right button__icon"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-button-next">
+					<i class="uil uil-angle-right-b swipper-portfolio-icon"></i>
+				</div>
+				<div class="swiper-button-prev">
+					<i class="uil uil-angle-left-b swipper-portfolio-icon"></i>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<!--==================== PROJECT IN MIND ====================-->
+		<section class="project section">
+			<div class="project__bg">
+				<div class="project__container container grid">
+					<div class="project__data">
+						<h2 class="project__title">Você têm um novo projeto?</h2>
+						<p class="project__description">Entre em contato e ganhe 30% de desconto com o seu projeto.
+						</p>
+						<a href="#contact" class="button button--flex button--white">
+							Entre em contato
+							<i class="uil uil-message project__icon button__icon"></i>
+						</a>
+					</div>
+					<img src="./src/img/project.png" alt="" class="project__img" draggable="false">
+				</div>
+			</div>
+		</section>
+
+		<!--==================== TESTIMONIAL ====================-->
+		<section class="testimonial section">
+			<h2 class="section__title">Depoimentos</h2>
+			<span class="section__subtitle">O que meus clientes colegas dizem sobre mim</span>
+
+			<div class="testimonial__container container swiper-container">
+				<div class="swiper-wrapper">
+					<!--==================== TESTIMONIAL 1 ====================-->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__data">
+							<div class="testimonial__header">
+								<img src="./src/img/testimonial-1.jpg" alt="" class="testimonial__img">
+
+								<div>
+									<h3 class="testimonial__name">Sara Smith</h3>
+									<span class="testimonial__client">Full Stack Developer at Google</span>
+								</div>
+							</div>
+
+							<div>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+							</div>
+
+						</div>
+
+						<p class="testimonial__description">
+							O Jeferson foi a peça-chave que transformou nossa visão em realidade digital. Sua habilidade em traduzir nossas ideias em código foi impressionante, e ele conseguiu equilibrar perfeitamente a funcionalidade do sistema com a experiência do usuário. Além disso, sua disposição em explicar conceitos complexos de forma compreensível foi fundamental para que nossa equipe entendesse plenamente cada etapa do processo. Não poderíamos estar mais satisfeitos com o resultado final.
+						</p>
+					</div>
+					<!--==================== TESTIMONIAL 2 ====================-->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__data">
+							<div class="testimonial__header">
+								<img src="./src/img/testimonial-2.jpg" alt="" class="testimonial__img">
+
+								<div>
+									<h3 class="testimonial__name">Math Robinson</h3>
+									<span class="testimonial__client">UI/UX Design at Instagram</span>
+								</div>
+							</div>
+
+							<div>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+							</div>
+
+						</div>
+
+						<p class="testimonial__description">
+							Trabalhar com o Jeferson foi uma verdadeira parceria. Sua capacidade de mergulhar nas tecnologias mais recentes e aplicá-las de maneira prática ao nosso projeto foi notável. Ele se destacou não apenas na codificação impecável, mas também na identificação proativa de possíveis melhorias e na resolução rápida de problemas. Seu profissionalismo e comprometimento foram cruciais para o sucesso da nossa plataforma.
+						</p>
+					</div>
+					<!--==================== TESTIMONIAL 3 ====================-->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__data">
+							<div class="testimonial__header">
+								<img src="./src/img/testimonial-3.jpg" alt="" class="testimonial__img">
+
+								<div>
+									<h3 class="testimonial__name">Raul Harris</h3>
+									<span class="testimonial__client">Mobile Developer at Twitter</span>
+								</div>
+							</div>
+
+							<div>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+								<i class="uil uil-star testimonial__icon-star"></i>
+							</div>
+
+						</div>
+
+						<p class="testimonial__description">
+							O Jeferson não apenas entregou um produto excepcional, mas também se destacou por sua ética de trabalho impecável. Sua abordagem metódica, combinada com uma compreensão profunda das complexidades técnicas, resultou em uma aplicação que funciona perfeitamente em todos os aspectos. Além disso, sua disposição em se envolver ativamente em todo o processo, desde o planejamento até a implementação, mostrou sua dedicação genuína ao sucesso do projeto.
+						</p>
+					</div>
+
+				</div>
+				<div class="swiper-pagination swiper-pagination-testimonial"></div>
+			</div>
+			</div>
+		</section>
+
+		<!--==================== CONTACT ME ====================-->
+		<section class="contact section" id="contact">
+			<h2 class="section__title">Contato</h2>
+			<span class="section__subtitle">entrar em contato
+			</span>
+
+			<div class="contact__container container grid">
+				<div>
+					<div class="contact__information">
+						<i class="uil uil-phone contact__icon"></i>
+
+						<div>
+							<h3 class="contact__title">Me ligue</h3>
+							<span class="contact__subtitle">
+								<a href="https://api.whatsapp.com/send?phone=+556198453785&text=Ol%C3%A1,+tudo+bem?&source=&data=&app_absent=" target="_blank">
+									+55 9 9845-3785
+								</a>
+							</span>
+						</div>
+					</div>
+
+					<div class="contact__information">
+						<i class="uil uil-envelope contact__icon"></i>
+
+						<div>
+							<h3 class="contact__title">E-mail</h3>
+							<span class="contact__subtitle">
+								<a href="mailto:jeferson.luckas@gmail.com" target="_blank">
+									jeferson.luckas@gmail.com
+								</a>
+							</span>
+						</div>
+					</div>
+
+					<div class="contact__information">
+						<i class="uil uil-map-marker contact__icon"></i>
+
+						<div>
+							<h3 class="contact__title">Localização</h3>
+							<span class="contact__subtitle">
+								<a href="https://www.google.com/maps/place/Valpara%C3%ADso+de+Goi%C3%A1s+-+GO/@-16.0841284,-48.022707,12.75z/data=!4m6!3m5!1s0x9359846e04692fcd:0xff5f6985b898b684!8m2!3d-16.0753495!4d-47.9860535!16zL20vMGI3Xzkz?entry=ttu" target="_blank" rel="noopener noreferrer">
+									Valparaíso de Goiás - GO
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<form action="" class="contact__form grid">
+					<div class="contact__inputs grid">
+						<div class="contact__content">
+							<label for="name" class="contact__label">Name</label>
+							<input type="text" id="name" placeholder="Seu nome" class="contact__input" required />
+						</div>
+						<div class="contact__content">
+							<label for="email" class="contact__label">E-mail</label>
+							<input type="email" id="email" placeholder="Seu e-mail" class="contact__input" required />
+						</div>
+					</div>
+					<div class="contact__content">
+						<label for="project" placeholder="Seu projeto" class="contact__label">Projeto</label>
+						<input type="text" id="project" class="contact__input" placeholder="Seu projeto" required />
+					</div>
+					<div class="contact__content">
+						<label for="message" class="contact__label">Mensagem</label>
+						<textarea name="message" id="message" cols="0" rows="7" class="contact__input" placeholder="Sua mensagem" required></textarea>
+					</div>
+					<div>
+						<button type="submit" class="button button--flex">Enviar mensagem
+							<i class="uil uil-message button__icon"></i>
+							</a>
+					</div>
+
+				</form>
+			</div>
 		</section>
 	</main>
 
 	<!--==================== FOOTER ====================-->
 	<footer class="footer">
+		<div class="footer__bg">
+			<div class="footer__container container grid">
+				<div>
+					<h1 class="footer__title">
+						Jeferson
+					</h1>
+					<span class="footer__subtitle">Full Stack Developer</span>
+				</div>
+
+				<ul class="footer__links">
+					<li>
+						<a href="#services" class="footer__link">Serviços</a>
+					</li>
+					<li>
+						<a href="#portfolio" class="footer__link">Portfólio</a>
+					</li>
+					<li>
+						<a href="#contact" class="footer__link">Contato</a>
+					</li>
+				</ul>
+
+				<div class="footer__socials">
+					<a target="_blank" href="https://www.instagram.com/jeferson.luckas/" class="footer__social">
+						<i class="uil uil-instagram"></i>
+					</a>
+
+					<a target="_blank" href="https://www.linkedin.com/in/jeferson-lucas/" class="footer__social">
+						<i class="uil uil-linkedin-alt"></i>
+					</a>
+
+					<a target="_blank" href="https://github.com/JefersonLucas" target="_blank" class="footer__social">
+						<i class="uil uil-github-alt"></i>
+					</a>
+
+					<a target="_blank" href="https://www.youtube.com/channel/UCivyyj1pFMq78HpAIzn1Pdg" class="footer__social">
+						<i class="uil uil-youtube"></i>
+					</a>
+				</div>
+			</div>
+
+			<p class="footer__copy">&copy; 2020-2023 Jeferson. All right reserved</p>
+		</div>
 	</footer>
 
+	<!--==================== SCROLL TOP ====================-->
+
+	<a href="#" class="scrollup" id="scroll-up">
+		<i class="uil uil-arrow-up scrollup__icon"></i>
+	</a>
 
 	<!--==================== SWIPER JS ====================-->
-	<script src="./assets/js/swiper-bundle.min.js"></script>
+	<script src="./src/js/swiper-bundle.min.js"></script>
 
 	<!--==================== SCRIPT JS ====================-->
 	<script src="./src/js/script.js"></script>
