@@ -1,0 +1,57 @@
+/*========== SCROLL UP ==========*/
+
+.scrollup {
+	position: fixed;
+	right: 1rem;
+	bottom: -20%;
+	background-color: var(--first-color);
+	opacity: 0.8;
+	padding: 0 0.3rem;
+	border-radius: 0.4rem;
+	z-index: var(--z-tooltip);
+	transition: 0.4s;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.scrollup:hover {
+	background-color: var(--first-color-alt);
+}
+
+.scrollup__icon {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+/* Show scroll */
+
+.show-scroll {
+	bottom: 5rem;
+} /*========== SCROLL UP ==========*/
+
+.scrollup {
+	position: fixed;
+	right: 1rem;
+	bottom: -20%;
+	background-color: var(--first-color);
+	opacity: 0.8;
+	padding: 0 0.3rem;
+	border-radius: 0.4rem;
+	z-index: var(--z-tooltip);
+	transition: 0.4s;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.scrollup:hover {
+	background-color: var(--first-color-alt);
+}
+
+.scrollup__icon {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+/* Show scroll */
+
+.show-scroll {
+	bottom: 5rem;
+}
