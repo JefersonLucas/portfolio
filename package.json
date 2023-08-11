@@ -1,7 +1,7 @@
 {
 	"name": "portfolio",
 	"description": "Portfolio to demonstrate my projects and experiences throughout my career.",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:JefersonLucas/portfolio.git"
